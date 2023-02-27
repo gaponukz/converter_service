@@ -29,11 +29,11 @@ def convert_action_page():
         
         converter.from_session(archive_id)
 
-        # return send_file(f'results/{archive_id}.zip',
-        #     mimetype = 'zip',
-        #     attachment_filename= f'{archive_id}.zip',
-        #     as_attachment = True
-        # )
+        return send_file(f'results/{archive_id}.zip',
+            mimetype = 'zip',
+            download_name = f'ConvertedTDATA.zip',
+            as_attachment = True
+        )
     
     elif convert_from == "TDATA":
         archive_id = str(random.randint(0, 10**6)) + request.headers.get('uuid', '')
@@ -46,7 +46,7 @@ def convert_action_page():
 
         # return send_file(f'results/{archive_id}.zip',
         #     mimetype = 'zip',
-        #     attachment_filename= f'{archive_id}.zip',
+        #     download_name = f'{archive_id}.zip',
         #     as_attachment = True
         # )
 

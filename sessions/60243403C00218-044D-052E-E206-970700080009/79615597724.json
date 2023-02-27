@@ -1,0 +1,34 @@
+{
+    "session_file": "79615597724",
+    "phone": "79615597724",
+    "register_time": 1645438604,
+    "app_id": "99126",
+    "app_hash": "2e141b6137b3e7cbe7b0ec6be438751f",
+    "sdk": "SDK 29",
+    "app_version": "7.8.0 (23601)",
+    "device": "GoogleAndroid SDK  built for x86",
+    "last_check_time": 1645438604,
+    "avatar": "static/imgs/998237924.jpg",
+    "first_name": "PirraToZ",
+    "last_name": null,
+    "username": "Pbrra5oZ",
+    "sex": 0,
+    "proxy": [
+        {
+            "type": "HTTP",
+            "ip": "isp2.hydraproxy.com",
+            "port": "9989",
+            "username": "netw21534ksjh51138",
+            "password": "RcpyHHxz3pIM8Ec1_country-Russia",
+            "proxy": "isp2.hydraproxy.com:9989:netw21534ksjh51138:RcpyHHxz3pIM8Ec1_country-Russia",
+            "status": "live"
+        }
+    ],
+    "ipv6": false,
+    "lang_pack": "ms",
+    "system_lang_pack": "ms\n",
+    "twoFA": "36qAt4jgmyjamcvm",
+    "status": "No limits",
+    "is_busy": false,
+    "spam_date": null
+}

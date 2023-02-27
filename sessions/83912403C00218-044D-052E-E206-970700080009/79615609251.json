@@ -1,0 +1,34 @@
+{
+    "session_file": "79615609251",
+    "phone": "79615609251",
+    "register_time": 1645439028,
+    "app_id": "226539",
+    "app_hash": "f0ff3e06e48258b5158132f8599fe34b",
+    "sdk": "SDK 24",
+    "app_version": "7.7.2 (22937)",
+    "device": "alpsEasy_S",
+    "last_check_time": 1645439028,
+    "avatar": "static/imgs/2106524093.png",
+    "first_name": "Nil\u00fcfer",
+    "last_name": "Aln\u0131a\u00e7\u0131k",
+    "username": "CLeb768",
+    "sex": 0,
+    "proxy": [
+        {
+            "type": "HTTP",
+            "ip": "isp2.hydraproxy.com",
+            "port": "9989",
+            "username": "netw21534ksjh51138",
+            "password": "RcpyHHxz3pIM8Ec1_country-Russia",
+            "proxy": "isp2.hydraproxy.com:9989:netw21534ksjh51138:RcpyHHxz3pIM8Ec1_country-Russia",
+            "status": "live"
+        }
+    ],
+    "ipv6": false,
+    "lang_pack": "lv",
+    "system_lang_pack": "ka\n",
+    "twoFA": "qbhRJGA8wDFlOeOS",
+    "status": "No limits",
+    "is_busy": true,
+    "spam_date": null
+}
