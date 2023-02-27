@@ -1,0 +1,4895 @@
+{
+    "android": [
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 29",
+            "app_version": "9.1.5 (29282)",
+            "device": "samsungGT-P7510",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 27",
+            "app_version": "9.1.4 (29271)",
+            "device": "amlogicMXQ Pro",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "9.1.0 (28852)",
+            "device": "NOANOA H4se",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 29",
+            "app_version": "9.1.4 (29271)",
+            "device": "HaierA2",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 25",
+            "app_version": "9.1.3 (29172)",
+            "device": "samsungSM-T355",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 26",
+            "app_version": "9.0.2 (28082)",
+            "device": "TCL4047D",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 25",
+            "app_version": "9.1.3 (29172)",
+            "device": "TECNOTECNO-N9",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 25",
+            "app_version": "9.1.0 (28851)",
+            "device": "InfinixInfinixX697",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 25",
+            "app_version": "9.1.2 (29022)",
+            "device": "rockchipA5X Pro",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 25",
+            "app_version": "9.1.5 (29281)",
+            "device": "LENOVOLenovo A1000",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "9.1.5 (29281)",
+            "device": "samsungSM-G935T",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "9.0.2 (28082)",
+            "device": "AlcoRCT6973W43MD",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 27",
+            "app_version": "9.1.4 (29272)",
+            "device": "rockchipR68G",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 26",
+            "app_version": "9.1.3 (29172)",
+            "device": "BlackviewA60Pro",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "9.1.2 (29022)",
+            "device": "Motorolaviper_athene",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 25",
+            "app_version": "9.1.0 (28852)",
+            "device": "ElephoneP8",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 29",
+            "app_version": "9.1.6 (29291)",
+            "device": "HUAWEIFIG-LX1",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "9.1.0 (28852)",
+            "device": "YuLongCoolpad 3600I",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "9.1.0 (28852)",
+            "device": "ulefoneVienna",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 25",
+            "app_version": "9.0.2 (28081)",
+            "device": "samsungSM-J727T1",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "9.1.0 (28851)",
+            "device": "ZTEZ965",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 25",
+            "app_version": "9.1.3 (29171)",
+            "device": "alpsX3",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 25",
+            "app_version": "9.0.0 (27982)",
+            "device": "TeslaGinzzu GT-W831",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 27",
+            "app_version": "9.1.0 (28852)",
+            "device": "VSVONTAR Z8 Arc",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 27",
+            "app_version": "9.1.4 (29272)",
+            "device": "HUAWEIDRA-LX2",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "9.1.4 (29271)",
+            "device": "alpsSM-N9750",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 26",
+            "app_version": "9.1.4 (29271)",
+            "device": "alpsMate33 Pro",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 25",
+            "app_version": "9.0.0 (27981)",
+            "device": "DOOGEEY7Plus",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 25",
+            "app_version": "9.1.4 (29272)",
+            "device": "samsungSM-T357T",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 27",
+            "app_version": "8.9.3 (27571)",
+            "device": "HTCHTC U11 EYEs",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "8.9.3 (27571)",
+            "device": "AmlogicMXQ PRO+",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "8.9.0 (27501)",
+            "device": "MeizuMeizuM8c",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.9.2 (27562)",
+            "device": "cubet8p",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 25",
+            "app_version": "9.1.4 (29272)",
+            "device": "VertexLuck_L100_3G",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "9.1.6 (29292)",
+            "device": "AcerT07",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 29",
+            "app_version": "9.1.6 (29292)",
+            "device": "xiaomiRedmi6",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "9.1.2 (29021)",
+            "device": "ZTEZTE BLADE A510",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "9.1.5 (29281)",
+            "device": "TOSHIBAA205",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 29",
+            "app_version": "9.0.2 (28081)",
+            "device": "BlackviewA80Pro",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "9.1.6 (29292)",
+            "device": "TeclastP98 4G\u00c2\u00d6\u00b4\u00ca\u2020\u220f\u00c1\u00e2\u00e0(A8H8)",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 2743804,
+            "app_hash": "175ed80ee223cb0fac402434ba612cb0",
+            "sdk": "Android 10",
+            "app_version": "98.3.628 (173)",
+            "device": "Realme X3 SuperZoom",
+            "lang_pack": "us",
+            "system_lang_pack": "chr-us"
+        },
+        {
+            "app_id": 18054296,
+            "app_hash": "7e904177576b9d38441430f3b0bd3aae",
+            "sdk": "Android 12",
+            "app_version": "13.8.726 (958)",
+            "device": "Honor Magic V",
+            "lang_pack": "usa",
+            "system_lang_pack": "chr-us"
+        },
+        {
+            "app_id": 537503,
+            "app_hash": "0b43fec237ac88b0987b645d008081c4",
+            "sdk": "Android 12",
+            "app_version": "56.1.143 (528)",
+            "device": "Oukitel WP20",
+            "lang_pack": "usa",
+            "system_lang_pack": "haw-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "8.9.3 (27572)",
+            "device": "Redmi220333QL",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "8.9.3 (27572)",
+            "device": "LenovoLenovo TB-7104I",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.8.4 (27112)",
+            "device": "HighScreenPower Five Evo",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.5.3 (25653)",
+            "device": "samsungSM-J120F",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "9.0.2 (28081)",
+            "device": "OPPOCPH1931",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "8.7.4 (26361)",
+            "device": "XiaomiRedmi 3",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.8.6 (27252)",
+            "device": "lgeLG-H845",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.8.4 (27112)",
+            "device": "HOMTOMHT17",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.5.3 (25653)",
+            "device": "asusASUS_X00T",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.8.6 (27252)",
+            "device": "LineageLineage OS 7.1.2",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "8.8.6 (27252)",
+            "device": "samsungSM-M526B",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "8.7.4 (26361)",
+            "device": "xiaomiRedmi 6A",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "8.8.5 (27212)",
+            "device": "HighscreenBoost3",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "8.8.4 (27112)",
+            "device": "Tele2Tele2_Midi_LTE",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "8.6.1 (25941)",
+            "device": "samsungSM-N910C",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "8.7.4 (26361)",
+            "device": "BQruBQ-5012L",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "8.8.2 (27022)",
+            "device": "samsungSM-J700H",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "9.0.2 (28081)",
+            "device": "asusZB633KL",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.8.4 (27112)",
+            "device": "TECNOTECNO KE5",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.9.3 (27572)",
+            "device": "ZUKZ2131",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.8.6 (27252)",
+            "device": "IRBISTZ719",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.6.1 (25941)",
+            "device": "Tele2Tele2 Midi",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.7.4 (26361)",
+            "device": "TECNOTECNO BD4a",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.5.3 (25653)",
+            "device": "verneeM2",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "9.0.2 (28081)",
+            "device": "OPPOCPH2325",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "9.0.2 (28081)",
+            "device": "vivoV2026",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.7.4 (26361)",
+            "device": "BQruBQ-6042L",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "9.0.2 (28081)",
+            "device": "BlackviewA7",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.8.4 (27112)",
+            "device": "samsungSM-J700H",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.6.1 (25941)",
+            "device": "alpsaosonS7",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 27",
+            "app_version": "8.8.5 (27212)",
+            "device": "DIGMACITI 1576 3G CS1194MG",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.8.4 (27112)",
+            "device": "XiaomiRedmi 4A",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.8.4 (27112)",
+            "device": "Xiaomi2107113SG",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.8.2 (27022)",
+            "device": "samsungSM-G973F",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.7.4 (26361)",
+            "device": "Meizum3 note",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.8.2 (27022)",
+            "device": "TECNOTECNO CH9n",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.5.3 (25653)",
+            "device": "OPPOCPH2125",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.8.6 (27252)",
+            "device": "HUAWEIMRD-LX1F",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.8.6 (27252)",
+            "device": "samsungSM-J500H",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.8.2 (27022)",
+            "device": "samsungSM-G920F",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.8.6 (27252)",
+            "device": "HONORHLK-AL00",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "9.0.2 (28081)",
+            "device": "LeEcoLe X520",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.9.3 (27572)",
+            "device": "Redmi21091116C",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "9.0.2 (28081)",
+            "device": "vivoV2025",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 27",
+            "app_version": "8.8.4 (27112)",
+            "device": "motorolamoto e6s",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "9.0.2 (28081)",
+            "device": "asusZC553KL",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.9.3 (27572)",
+            "device": "CUBOTJ5",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": "73200",
+            "app_hash": "472fe19751263fa26aa36e23d5197e67",
+            "sdk": "SDK 27",
+            "app_version": "8.2",
+            "device": "XiaomiMI 5s",
+            "lang_pack": "ko",
+            "system_lang_pack": "kkj"
+        },
+        {
+            "app_id": "65473",
+            "app_hash": "b84e523858650a437a2c63774c9c1ffa",
+            "sdk": "SDK 25",
+            "app_version": "7.5",
+            "device": "HUAWEIVNS-L31",
+            "lang_pack": "uz",
+            "system_lang_pack": "non"
+        },
+        {
+            "app_id": "30779",
+            "app_hash": "80015a761650814282f8a334b5d33feb",
+            "sdk": "SDK 25",
+            "app_version": "7.6 (20387)",
+            "device": "AmlogicR-TV-BOX Pro",
+            "lang_pack": "gl",
+            "system_lang_pack": "kkj"
+        },
+        {
+            "app_id": "226539",
+            "app_hash": "f0ff3e06e48258b5158132f8599fe34b",
+            "sdk": "SDK 25",
+            "app_version": "8.0.8 (9727190)",
+            "device": "HUAWEIALE-L21",
+            "lang_pack": "si",
+            "system_lang_pack": "ky"
+        },
+        {
+            "app_id": "82673",
+            "app_hash": "814d7da8a517359e88cedecbe90ddd3b",
+            "sdk": "SDK 27",
+            "app_version": "7.5.1",
+            "device": "samsungSM-J710MN\\/DS",
+            "lang_pack": "te",
+            "system_lang_pack": "tkl"
+        },
+        {
+            "app_id": 202916,
+            "app_hash": "ebf69a67212910c9adee3cbe4d47294d",
+            "sdk": "SDK 30",
+            "app_version": "8.1.5 (24579)",
+            "device": "SM-N985F",
+            "lang_pack": "ru",
+            "system_lang_pack": "ru-RU"
+        },
+        {
+            "app_id": 336779,
+            "app_hash": "b91eefacc86747c068c8d8a16b41500d",
+            "sdk": "SDK 29",
+            "app_version": "8.2.1 (24158)",
+            "device": "SM-G973F",
+            "lang_pack": "ru",
+            "system_lang_pack": "ru-RU"
+        },
+        {
+            "app_id": 659337,
+            "app_hash": "314703a39f45937dcdee8dbb8c2dacbb",
+            "sdk": "SDK 30",
+            "app_version": "6.3.6 (24816)",
+            "device": "Pixel 2 XL",
+            "lang_pack": "ru",
+            "system_lang_pack": "ru-RU"
+        },
+        {
+            "app_id": 659337,
+            "app_hash": "314703a39f45937dcdee8dbb8c2dacbb",
+            "sdk": "SDK 31",
+            "app_version": "6.0.1 (6001)",
+            "device": "Pixel 4 XL",
+            "lang_pack": "ru",
+            "system_lang_pack": "ru-RU"
+        },
+        {
+            "app_id": 659337,
+            "app_hash": "314703a39f45937dcdee8dbb8c2dacbb",
+            "sdk": "SDK 28",
+            "app_version": "5.1.2 (25564)",
+            "device": "Pixel 4 XL",
+            "lang_pack": "ru",
+            "system_lang_pack": "ru-RU"
+        },
+        {
+            "app_id": 202916,
+            "app_hash": "ebf69a67212910c9adee3cbe4d47294d",
+            "sdk": "SDK 31",
+            "app_version": "8.2.1 (24158)",
+            "device": "Pixel 2 XL",
+            "lang_pack": "ru",
+            "system_lang_pack": "ru-RU"
+        },
+        {
+            "app_id": 202916,
+            "app_hash": "ebf69a67212910c9adee3cbe4d47294d",
+            "sdk": "SDK 32",
+            "app_version": "8.1.2 (24321)",
+            "device": "SM-G973F",
+            "lang_pack": "ru",
+            "system_lang_pack": "ru-RU"
+        },
+        {
+            "app_id": 12834,
+            "app_hash": "c84d9229db1d6be95c067b02b126352c",
+            "sdk": "SDK 31",
+            "app_version": "6.8.8 (25410)",
+            "device": "SM-G960F",
+            "lang_pack": "ru",
+            "system_lang_pack": "ru-RU"
+        },
+        {
+            "app_id": 133612,
+            "app_hash": "b8c264a8b3e9ffb53b9024d98a08ea7e",
+            "sdk": "SDK 32",
+            "app_version": "5.1.2 (25564)",
+            "device": "SM-A515F",
+            "lang_pack": "ru",
+            "system_lang_pack": "ru-RU"
+        },
+        {
+            "app_id": 12834,
+            "app_hash": "c84d9229db1d6be95c067b02b126352c",
+            "sdk": "SDK 30",
+            "app_version": "6.0.1 (6001)",
+            "device": "Pixel 4",
+            "lang_pack": "ru",
+            "system_lang_pack": "ru-RU"
+        },
+        {
+            "app_id": 5977284,
+            "app_hash": "f14cbdba6c6cedca8c6ffd4efa000fbc",
+            "sdk": "SDK 30",
+            "app_version": "6.0.1 (6001)",
+            "device": "Pixel 4",
+            "lang_pack": "ru",
+            "system_lang_pack": "ru-RU"
+        },
+        {
+            "app_id": 5977284,
+            "app_hash": "f14cbdba6c6cedca8c6ffd4efa000fbc",
+            "sdk": "SDK 30",
+            "app_version": "6.0.1 (6001)",
+            "device": "SM-A715F",
+            "lang_pack": "ru",
+            "system_lang_pack": "ru-RU"
+        },
+        {
+            "app_id": 12834,
+            "app_hash": "c84d9229db1d6be95c067b02b126352c",
+            "sdk": "SDK 29",
+            "app_version": "6.0.1 (6001)",
+            "device": "SM-G973F",
+            "lang_pack": "ru",
+            "system_lang_pack": "ru-RU"
+        },
+        {
+            "app_id": "99126",
+            "app_hash": "2e141b6137b3e7cbe7b0ec6be438751f",
+            "sdk": "SDK 29",
+            "app_version": "7.8.0 (23601)",
+            "device": "GoogleAndroid SDK  built for x86",
+            "lang_pack": "ms",
+            "system_lang_pack": "ms\n"
+        },
+        {
+            "app_id": "243080",
+            "app_hash": "e79630f811647cc07b45693a503a15c4",
+            "sdk": "SDK 26",
+            "app_version": "7.5.0 (22464)",
+            "device": "motorolaXT1575",
+            "lang_pack": "th",
+            "system_lang_pack": "km\n"
+        },
+        {
+            "app_id": "12834",
+            "app_hash": "c84d9229db1d6be95c067b02b126352c",
+            "sdk": "SDK 26",
+            "app_version": "7.4.2 (22279)",
+            "device": "samsungSM-G903F",
+            "lang_pack": "bg",
+            "system_lang_pack": "my\n"
+        },
+        {
+            "app_id": "243080",
+            "app_hash": "e79630f811647cc07b45693a503a15c4",
+            "sdk": "SDK 28",
+            "app_version": "7.8.0 (23601)",
+            "device": "HUAWEIHMA-AL00",
+            "lang_pack": "mk",
+            "system_lang_pack": "sk\n"
+        },
+        {
+            "app_id": "65473",
+            "app_hash": "b84e523858650a437a2c63774c9c1ffa",
+            "sdk": "SDK 27",
+            "app_version": "7.4.1 (22255)",
+            "device": "HUAWEILLD-L31",
+            "lang_pack": "az",
+            "system_lang_pack": "ne\n"
+        },
+        {
+            "app_id": "85257",
+            "app_hash": "aada6d74ff8aec9e6fb3544a7ade3229",
+            "sdk": "SDK 24",
+            "app_version": "7.4.2 (22276)",
+            "device": "LEAGOOT1",
+            "lang_pack": "et",
+            "system_lang_pack": "bn\n"
+        },
+        {
+            "app_id": "73200",
+            "app_hash": "472fe19751263fa26aa36e23d5197e67",
+            "sdk": "SDK 28",
+            "app_version": "7.5.0 (22465)",
+            "device": "OnePlusGM1901",
+            "lang_pack": "lv",
+            "system_lang_pack": "sl\n"
+        },
+        {
+            "app_id": "536164",
+            "app_hash": "9aa8cf226facb8f0814003a83f9dee8e",
+            "sdk": "SDK 25",
+            "app_version": "6.3.0 (20409)",
+            "device": "samsungSM-N910T3",
+            "lang_pack": "pt",
+            "system_lang_pack": "ko\n"
+        },
+        {
+            "app_id": "65473",
+            "app_hash": "b84e523858650a437a2c63774c9c1ffa",
+            "sdk": "SDK 25",
+            "app_version": "7.5.0 (22461)",
+            "device": "MeizuPRO 7 Plus",
+            "lang_pack": "th",
+            "system_lang_pack": "es\n"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.7.4 (26361)",
+            "device": "InfinixInfinix X687B",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 27",
+            "app_version": "8.8.4 (27112)",
+            "device": "ZTEZTE Blade A5 2019RU",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "9.0.2 (28089)",
+            "device": "samsungSM-G985F",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.8.2 (27022)",
+            "device": "RedmiM2004J19C",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.6.1 (25941)",
+            "device": "HUAWEICAM-L21",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.9.3 (27572)",
+            "device": "SHARPFS8010",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.6.1 (25941)",
+            "device": "NokiaNokia 1.3",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.9.3 (27572)",
+            "device": "samsungSM-T819",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "9.0.2 (28089)",
+            "device": "XiaomiRedmi 5 Plus",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "8.8.2 (27022)",
+            "device": "OnePlusIN2025",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 27",
+            "app_version": "9.0.2 (28081)",
+            "device": "HUAWEICRO-L22",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 27",
+            "app_version": "8.9.3 (27572)",
+            "device": "HUAWEIBLL-L21",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 27",
+            "app_version": "9.0.2 (28089)",
+            "device": "LenovoTB2-X30L",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 26",
+            "app_version": "8.6.1 (25941)",
+            "device": "samsungSM-S908B",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "8.8.6 (27252)",
+            "device": "TCL5085D",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.5.3 (25653)",
+            "device": "HaierA4_Lite",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "9.0.2 (28081)",
+            "device": "CUBOTKINGKONG MINI2",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.6.1 (25947)",
+            "device": "Gretel-G1Gretel-G1",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 28",
+            "app_version": "8.8.4 (27112)",
+            "device": "samsungSM-T355",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.9.3 (27572)",
+            "device": "samsungSM-G950F",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.8.2 (27022)",
+            "device": "Redmi220333QL",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 26",
+            "app_version": "9.0.2 (28089)",
+            "device": "DIGMACITI 1902 3G CS1051PG",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 26",
+            "app_version": "9.0.2 (28081)",
+            "device": "samsungSM-G990B",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 27",
+            "app_version": "8.8.2 (27022)",
+            "device": "RedmiRedmi Note 9S",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        },
+        {
+            "app_id": 4,
+            "app_hash": "014b35b6184100b085b0d0572f9b5103",
+            "sdk": "SDK 30",
+            "app_version": "8.8.5 (27212)",
+            "device": "SonyG3212",
+            "lang_pack": "android",
+            "system_lang_pack": "en-us"
+        }
+    ],
+    "ios": [
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "12.0.1",
+            "app_version": "7.6",
+            "device": "iPad mini 2",
+            "lang_pack": "ja",
+            "system_lang_pack": "gv-IM"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "13.3.1",
+            "app_version": "7.8",
+            "device": "iPhone 7 Plus",
+            "lang_pack": "uk",
+            "system_lang_pack": "tzm"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "14.0 Beta 20",
+            "app_version": "7.9",
+            "device": "iPod touch 7G",
+            "lang_pack": "et",
+            "system_lang_pack": "tkl"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "29382",
+            "app_version": "9.7.4.4 (7226005)",
+            "device": "iPhone X",
+            "lang_pack": "sl",
+            "system_lang_pack": "byv"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "12.0.1",
+            "app_version": "7.6",
+            "device": "iPad mini 2",
+            "lang_pack": "ja",
+            "system_lang_pack": "gv-IM"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "13.3.1",
+            "app_version": "7.8",
+            "device": "iPhone 7 Plus",
+            "lang_pack": "uk",
+            "system_lang_pack": "tzm"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "13.3.1",
+            "app_version": "7.8",
+            "device": "iPhone 7 Plus",
+            "lang_pack": "uk",
+            "system_lang_pack": "tzm"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "13.3.1",
+            "app_version": "7.8",
+            "device": "iPhone 7 Plus",
+            "lang_pack": "uk",
+            "system_lang_pack": "tzm"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "13.3.1",
+            "app_version": "7.8",
+            "device": "iPhone 7 Plus",
+            "lang_pack": "uk",
+            "system_lang_pack": "tzm"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "14.0 Beta 20",
+            "app_version": "7.9",
+            "device": "iPod touch 7G",
+            "lang_pack": "et",
+            "system_lang_pack": "tkl"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "13.3.1",
+            "app_version": "7.8",
+            "device": "iPhone 7 Plus",
+            "lang_pack": "uk",
+            "system_lang_pack": "tzm"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "14.0 Beta 20",
+            "app_version": "7.9",
+            "device": "iPod touch 7G",
+            "lang_pack": "et",
+            "system_lang_pack": "tkl"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "27496",
+            "app_version": "7.9",
+            "device": "iPhone 8",
+            "lang_pack": "ml",
+            "system_lang_pack": "os"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "12.0.1",
+            "app_version": "7.6",
+            "device": "iPad mini 2",
+            "lang_pack": "ja",
+            "system_lang_pack": "gv-IM"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "12.0.1",
+            "app_version": "7.6",
+            "device": "iPad mini 2",
+            "lang_pack": "ja",
+            "system_lang_pack": "gv-IM"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "13.3.1",
+            "app_version": "7.8",
+            "device": "iPhone 7 Plus",
+            "lang_pack": "uk",
+            "system_lang_pack": "tzm"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "14.0 Beta 20",
+            "app_version": "7.9",
+            "device": "iPod touch 7G",
+            "lang_pack": "et",
+            "system_lang_pack": "tkl"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "12.0.1",
+            "app_version": "7.6",
+            "device": "iPad mini 2",
+            "lang_pack": "ja",
+            "system_lang_pack": "gv-IM"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "12.0 Beta 98",
+            "app_version": "7.3",
+            "device": "iPhone SE",
+            "lang_pack": "sl",
+            "system_lang_pack": "fr-CG"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "13.3.1",
+            "app_version": "7.8",
+            "device": "iPhone 7 Plus",
+            "lang_pack": "uk",
+            "system_lang_pack": "tzm"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "12.0.1",
+            "app_version": "7.6",
+            "device": "iPad mini 2",
+            "lang_pack": "ja",
+            "system_lang_pack": "gv-IM"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "13.01.03",
+            "app_version": "7.7",
+            "device": "iPhone 8 Plus",
+            "lang_pack": "ml",
+            "system_lang_pack": "yo-BJ"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "14.0 Beta 20",
+            "app_version": "7.9",
+            "device": "iPod touch 7G",
+            "lang_pack": "et",
+            "system_lang_pack": "tkl"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "12.0 Beta 98",
+            "app_version": "7.3",
+            "device": "iPhone SE",
+            "lang_pack": "sl",
+            "system_lang_pack": "fr-CG"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "27496",
+            "app_version": "7.9",
+            "device": "iPhone 8",
+            "lang_pack": "ml",
+            "system_lang_pack": "os"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "11.0 Beta 53",
+            "app_version": "7.3.7.0 (7318262)",
+            "device": "iPhone XS Max",
+            "lang_pack": "fi",
+            "system_lang_pack": "iro"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "12.0 Beta 98",
+            "app_version": "7.3",
+            "device": "iPhone SE",
+            "lang_pack": "sl",
+            "system_lang_pack": "fr-CG"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "20280",
+            "app_version": "7.9 (21651)",
+            "device": "iPhone XS Max",
+            "lang_pack": "ja",
+            "system_lang_pack": "tkl"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "13.3.1",
+            "app_version": "7.8",
+            "device": "iPhone 7 Plus",
+            "lang_pack": "uk",
+            "system_lang_pack": "tzm"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "10.2.1",
+            "app_version": "7.3",
+            "device": "iPhone 6 Plus",
+            "lang_pack": "sl",
+            "system_lang_pack": "pag"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "14.0 Beta 20",
+            "app_version": "7.9",
+            "device": "iPod touch 7G",
+            "lang_pack": "et",
+            "system_lang_pack": "tkl"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "12.0 Beta 98",
+            "app_version": "7.3",
+            "device": "iPhone SE",
+            "lang_pack": "sl",
+            "system_lang_pack": "fr-CG"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "12.0.1",
+            "app_version": "7.6",
+            "device": "iPad mini 2",
+            "lang_pack": "ja",
+            "system_lang_pack": "gv-IM"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "27496",
+            "app_version": "7.9",
+            "device": "iPhone 8",
+            "lang_pack": "ml",
+            "system_lang_pack": "os"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "12.0 Beta 98",
+            "app_version": "7.3",
+            "device": "iPhone SE",
+            "lang_pack": "sl",
+            "system_lang_pack": "fr-CG"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "13.3.1",
+            "app_version": "7.8",
+            "device": "iPhone 7 Plus",
+            "lang_pack": "uk",
+            "system_lang_pack": "tzm"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "38055",
+            "app_version": "8.1",
+            "device": "iPad Pro 11 inch",
+            "lang_pack": "pl",
+            "system_lang_pack": "yav-CM"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "12.0 Beta 98",
+            "app_version": "7.3",
+            "device": "iPhone SE",
+            "lang_pack": "sl",
+            "system_lang_pack": "fr-CG"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "12.0 Beta 98",
+            "app_version": "7.3",
+            "device": "iPhone SE",
+            "lang_pack": "sl",
+            "system_lang_pack": "fr-CG"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "10.0",
+            "app_version": "9.9.9 (2744102)",
+            "device": "iPhone 6s",
+            "lang_pack": "ml",
+            "system_lang_pack": "chg"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "27496",
+            "app_version": "7.9",
+            "device": "iPhone 8",
+            "lang_pack": "ml",
+            "system_lang_pack": "os"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "12.0 Beta 98",
+            "app_version": "7.3",
+            "device": "iPhone SE",
+            "lang_pack": "sl",
+            "system_lang_pack": "fr-CG"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "13.3",
+            "app_version": "8.1 (21960)",
+            "device": "iPad Pro (10.5-inch)",
+            "lang_pack": "np",
+            "system_lang_pack": "wd_yn"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "12.3.2",
+            "app_version": "8.1.1 (21971)",
+            "device": "iPhone SE (1st generation)",
+            "lang_pack": "wm",
+            "system_lang_pack": "zt_dq"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "14.3",
+            "app_version": "8.1.1 (21971)",
+            "device": "iPhone 11",
+            "lang_pack": "si",
+            "system_lang_pack": "az_oz"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "13.6",
+            "app_version": "8.1 (21960)",
+            "device": "iPhone XS",
+            "lang_pack": "dm",
+            "system_lang_pack": "iz_tk"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "15.0",
+            "app_version": "7.6 (20387)",
+            "device": "iPhone 11",
+            "lang_pack": "yt",
+            "system_lang_pack": "uo_ei"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "12.1",
+            "app_version": "7.9.1 (21656)",
+            "device": "iPad Pro (12.9-inch) (3rd generation)",
+            "lang_pack": "gq",
+            "system_lang_pack": "fn_iq"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "13.4",
+            "app_version": "7.4.2 (19883)",
+            "device": "iPad (5th generation)",
+            "lang_pack": "tv",
+            "system_lang_pack": "uz_nu"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "9.0.2",
+            "app_version": "7.9.1 (21656)",
+            "device": "iPad mini",
+            "lang_pack": "wx",
+            "system_lang_pack": "qs_pl"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "9.3.6",
+            "app_version": "8.0 (21836)",
+            "device": "iPad mini 2",
+            "lang_pack": "qv",
+            "system_lang_pack": "cw_be"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "13.5.1",
+            "app_version": "8.1 (21960)",
+            "device": "iPhone 11",
+            "lang_pack": "zf",
+            "system_lang_pack": "tc_pl"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "13.1.2",
+            "app_version": "7.6.2 (20561)",
+            "device": "iPhone 8 Plus",
+            "lang_pack": "rl",
+            "system_lang_pack": "zj_sd"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": "9.3.4",
+            "app_version": "8.0 (21836)",
+            "device": "iPad mini 2",
+            "lang_pack": "el",
+            "system_lang_pack": "go_dz"
+        },
+        {
+            "app_id": "1",
+            "app_hash": "b6b154c3707471f5339bd661645ed3d6",
+            "sdk": null,
+            "app_version": null,
+            "device": "iPad 3G",
+            "lang_pack": "en",
+            "system_lang_pack": "en"
+        }
+    ],
+    "windows": [
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "1.1.9",
+            "device": "PC",
+            "lang_pack": "en",
+            "system_lang_pack": null
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": "2040",
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 7",
+            "app_version": "3.7.0 x64",
+            "device": "0692FT",
+            "lang_pack": "tdesktop",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": "2040",
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 7",
+            "app_version": "3.7.0 x64",
+            "device": "0M9XW4",
+            "lang_pack": "tdesktop",
+            "system_lang_pack": "ru-RU"
+        },
+        {
+            "app_id": "2040",
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 8.1",
+            "app_version": "3.4.3 x64",
+            "device": "0YF8P5",
+            "lang_pack": "tdesktop",
+            "system_lang_pack": "ru-RU"
+        },
+        {
+            "app_id": "2040",
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 8.1",
+            "app_version": "3.7.0 x64",
+            "device": "765802U",
+            "lang_pack": "tdesktop",
+            "system_lang_pack": "ru-RU"
+        },
+        {
+            "app_id": "2040",
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.4.3 x64",
+            "device": "0YF8P5",
+            "lang_pack": "tdesktop",
+            "system_lang_pack": "ru-RU"
+        },
+        {
+            "app_id": "2040",
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 7",
+            "app_version": "3.4.3 x64",
+            "device": "0874P6",
+            "lang_pack": "tdesktop",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": "2040",
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 8.1",
+            "app_version": "3.7.0 x64",
+            "device": "20ATCTO1WW",
+            "lang_pack": "tdesktop",
+            "system_lang_pack": "ru-RU"
+        },
+        {
+            "app_id": "2040",
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 8",
+            "app_version": "3.4.3 x64",
+            "device": "0874P6",
+            "lang_pack": "tdesktop",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": "2040",
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 7",
+            "app_version": "3.4.3 x64",
+            "device": "0M9XW4",
+            "lang_pack": "tdesktop",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": "2040",
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 8",
+            "app_version": "3.7.0 x64",
+            "device": "0YF8P5",
+            "lang_pack": "tdesktop",
+            "system_lang_pack": "ru-RU"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 478607,
+            "app_hash": "b90ccf549197ea7cf9cb99e7459ae86b",
+            "sdk": "SDK 26",
+            "app_version": "1.3.1 (10301005)",
+            "device": "itelA41Plus",
+            "lang_pack": "br",
+            "system_lang_pack": "en-il"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 714437,
+            "app_hash": "d08f2b0236301e5f7e082f1777bc9a37",
+            "sdk": "SDK 30",
+            "app_version": "8.4.3-rc01 (25375)",
+            "device": "HUAWEITAG-L01",
+            "lang_pack": "nl",
+            "system_lang_pack": "en-il"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "3.1.8 x64",
+            "device": "PC 64bit",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 8.1",
+            "app_version": "4.0.2 x64",
+            "device": "LENOVO",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 8",
+            "app_version": "4.0.2 x64",
+            "device": "N552VX",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 11",
+            "app_version": "4.0.2 x64",
+            "device": "M5A97 R2.0",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "4.0.2 x64",
+            "device": "103C53316J G=D",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 11",
+            "app_version": "4.0.2 x64",
+            "device": "N61Jq",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "4.0.2 x64",
+            "device": "EP45-UD3R",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 8.1",
+            "app_version": "4.0.2 x64",
+            "device": "Swift 3",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 8.1",
+            "app_version": "4.0.2 x64",
+            "device": "GA-MA770-UD3",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 8",
+            "app_version": "4.0.2 x64",
+            "device": "Studio 1458",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 8.1",
+            "app_version": "4.0.2 x64",
+            "device": "P5Q-PRO",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "4.0.2 x64",
+            "device": "A320M-S2H",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 8",
+            "app_version": "4.0.2 x64",
+            "device": "Inspiron 5570",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 8",
+            "app_version": "4.0.2 x64",
+            "device": "Satellite A505",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "4.0.2 x64",
+            "device": "PolarisHW",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "4.0.2 x64",
+            "device": "USOPPBH",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 10",
+            "app_version": "4.0.2 x64",
+            "device": "ixtreme M5800",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        },
+        {
+            "app_id": 2040,
+            "app_hash": "b18441a1ff607e10a989891a5462e627",
+            "sdk": "Windows 8",
+            "app_version": "4.0.2 x64",
+            "device": "X550JX",
+            "lang_pack": "en",
+            "system_lang_pack": "en-US"
+        }
+    ]
+}
