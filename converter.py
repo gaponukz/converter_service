@@ -1,4 +1,3 @@
-from converter_script import converter_utils
 import threading
 import nest_asyncio
 import asyncio
@@ -6,6 +5,8 @@ import patoolib
 import shutil
 import utils
 import os
+
+from converter_script import converter_utils
 
 loop = asyncio.get_event_loop()
 nest_asyncio.apply()
@@ -22,10 +23,10 @@ def from_session(archive_id: str):
     for client in clients:
         thread_groups.append(threading.Thread(
             target = lambda client:
-                loop.run_until_complete(converter_utils.convert_from_string_to_tdata(
+                loop.run_until_complete(asyncio.wait_for(converter_utils.convert_from_string_to_tdata(
                     loop.run_until_complete(converter_utils.get_client_string_session(client, f"sessions/{archive_id}")),
                     path_to_save = f"results/{archive_id}/{client}_tdata"
-                )),
+                ), 10)),
             args=(client,)
         ))
     
