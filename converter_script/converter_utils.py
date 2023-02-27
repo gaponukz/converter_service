@@ -48,7 +48,7 @@ async def convert_from_string_to_tdata(string_session: str, path_to_save: str):
 
     tdesk.SaveTData(path_to_save)
 
-async def convert_from_tdata_to_session(tdata_path: str) -> str:
+async def convert_from_tdata_to_session(tdata_path: str, save_path: str) -> str:
     string_sessoins: list[str] = convert_tdata.convert_tdata(tdata_path)
 
     with open("telegram_useragents.json", "r", encoding="utf-8") as out:
@@ -71,11 +71,24 @@ async def convert_from_tdata_to_session(tdata_path: str) -> str:
         _str_session = telethon.sessions.StringSession(str_session)
         client = telethon.TelegramClient(_str_session, api_hash=telegram_useragent["app_hash"],api_id=telegram_useragent["app_id"])
 
+        await client.connect()
+
+        if not await client.is_user_authorized():
+            return
+        
         async with client:
             info = await client.get_me()
 
+        '''
+        "type": "HTTP",
+        "ip": "isp2.hydraproxy.com",
+        "port": "9989",
+        "username": "netw21534ksjh51138",
+        "password": "RcpyHHxz3pIM8Ec1_country-Russia",
+        '''
+
         client = telethon.TelegramClient(
-            f"converter_factory/result/{info.phone}.session",
+            f"{save_path}/{info.phone}.session",
             api_hash=telegram_useragent["app_hash"],
             api_id=telegram_useragent["app_id"],
             device_model=telegram_useragent['device'],
@@ -83,7 +96,9 @@ async def convert_from_tdata_to_session(tdata_path: str) -> str:
             system_lang_code=telegram_useragent.get('system_lang_pack'),
             system_version=telegram_useragent.get('sdk'),
             app_version=telegram_useragent.get('app_version'),
-            use_ipv6 = telegram_useragent.get('ipv6', False)
+            use_ipv6 = telegram_useragent.get('ipv6', False),
+            connection_retries = 2,
+            proxy = ("http", "isp2.hydraproxy.com", 9989, True, "netw21534ksjh51138", "RcpyHHxz3pIM8Ec1_country-Russia")
         )
 
         dc, ip_bytes, port, key = struct.unpack(">B4sH256s", base64.urlsafe_b64decode(str_session[1:].encode("ascii")))
@@ -112,7 +127,7 @@ async def convert_from_tdata_to_session(tdata_path: str) -> str:
             registered = datetime.datetime.strptime(message.split(" registered: ")[-1].split()[0], '%Y-%m-%d')
             registered = datetime.datetime.timestamp(registered)
 
-            with open(f"converter_factory/result/{info.phone}.json", "w", encoding="utf-8") as out:
+            with open(f"{save_path}/{info.phone}.json", "w", encoding="utf-8") as out:
                 json.dump({
                     "session_file": info.phone,
                     "phone": info.phone,

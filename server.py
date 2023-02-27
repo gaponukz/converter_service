@@ -8,11 +8,14 @@ import os
 import auth
 import converter
 
-from typing import Literal
+from typing import Literal, Final
 from werkzeug.datastructures import FileStorage
 
 server = Flask(__name__)
-flask_cors.CORS(server)
+flask_cors.CORS(server, support_credentials=True)
+
+FROM_SESSION_ALOWANCE: Final = ['.session', '.json']
+FROM_TDATA_ALOWANCE: Final = ['.zip']
 
 @server.post('/convert')
 @auth.auth_required
@@ -25,13 +28,14 @@ def convert_action_page():
         os.mkdir(f"sessions/{archive_id}")
 
         for file in files:
-            file.save(f"sessions/{archive_id}/{file.filename}")
+            if any([file.filename.endswith(ext) for ext in FROM_SESSION_ALOWANCE]):
+                file.save(f"sessions/{archive_id}/{file.filename}")
         
         converter.from_session(archive_id)
 
         return send_file(f'results/{archive_id}.zip',
             mimetype = 'zip',
-            download_name = f'ConvertedTDATA.zip',
+            download_name = 'ConvertedTDATA.zip',
             as_attachment = True
         )
     
@@ -40,15 +44,16 @@ def convert_action_page():
         os.mkdir(f"tdatas/{archive_id}")
 
         for file in files:
-            file.save(f"tdatas/{archive_id}/{file.filename}")
+            if any([file.filename.endswith(ext) for ext in FROM_TDATA_ALOWANCE]):
+                file.save(f"tdatas/{archive_id}/{file.filename}")
         
         converter.from_tdata(archive_id)
 
-        # return send_file(f'results/{archive_id}.zip',
-        #     mimetype = 'zip',
-        #     download_name = f'{archive_id}.zip',
-        #     as_attachment = True
-        # )
+        return send_file(f'results/{archive_id}.zip',
+            mimetype = 'zip',
+            download_name = 'ConvertedSESSIONS.zip',
+            as_attachment = True
+        )
 
     return jsonify({"status": "ok"})
 

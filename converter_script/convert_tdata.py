@@ -221,7 +221,7 @@ def convert_tdata(path: str) -> list[str]:
     # @param: path to tdata folder
     # @return: list of string sessions
 
-    stream = read_file(os.path.join(path, "key_datas"))
+    stream = read_file(f"{path}/key_datas")
     salt = stream.read_buffer()
 
     if len(salt) != 32:
