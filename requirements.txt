@@ -1,0 +1,10 @@
+cryptg==0.2.post4
+Flask==2.0.2
+Flask_Cors==3.0.10
+nest_asyncio==1.5.5
+opentele==1.15.1
+patool==1.12
+python_dateutil==2.8.2
+requests==2.28.1
+Telethon==1.24.0
+Werkzeug==2.0.2
