@@ -1,6 +1,6 @@
 import abc
 
-from logic.entities import FileStorage
+from werkzeug.datastructures import FileStorage
 
 class IConverter(abc.IConverter):
     @abc.abstractmethod

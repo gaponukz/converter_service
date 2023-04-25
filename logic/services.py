@@ -3,9 +3,9 @@ import abc
 import logging
 import shutil
 
-from logic.entities import FileStorage
 from logic.interfaces import IConverter
 from logic.interfaces import IConverterService
+from werkzeug.datastructures import FileStorage
 
 logging.basicConfig(
     filename='converter.log',
@@ -14,7 +14,7 @@ logging.basicConfig(
     datefmt='%H:%M:%S'
 )
 
-class IConverterServiceTemplate(IConverterService):
+class ConverterServiceTemplate(IConverterService):
     def __init__(self, folder: str):
         self._folder = folder
         self._session_id = self.generate_session_id()
