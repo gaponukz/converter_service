@@ -8,6 +8,9 @@ class IConverter(abc.IConverter):
 
 class IConverterService(abc.ABC):
     @abc.abstractmethod
+    def get_session_id(self) -> str: ...
+    
+    @abc.abstractmethod
     def save_file_to_convert(self, files: list[FileStorage]) -> str: ...
 
     @abc.abstractmethod
