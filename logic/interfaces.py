@@ -2,11 +2,14 @@ import abc
 
 from werkzeug.datastructures import FileStorage
 
-class IConverter(abc.IConverter):
+class IConverter(abc.ABC):
     @abc.abstractmethod
     def convert(self, input_folder: str, output_folder: str): ...
 
 class IConverterService(abc.ABC):
+    @abc.abstractmethod
+    def __init__(self, session_id: str): ...
+
     @abc.abstractmethod
     def get_session_id(self) -> str: ...
     

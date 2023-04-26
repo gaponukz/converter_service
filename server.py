@@ -1,4 +1,3 @@
-import os
 import auth
 import typing
 import logging
@@ -11,8 +10,6 @@ from flask import send_file
 from logic.interfaces import IConverterService
 from logic.services import FromSessionToTdataService
 from logic.services import FromTdataToSessionService
-
-from logic.interfaces import IConverter
 from logic.converters import FromSessionToTdataConverter
 from logic.converters import FromTdataToSessionConverter
 
@@ -28,17 +25,22 @@ logging.basicConfig(
 )
 
 @server.post('/convert')
-# @auth.auth_required
+@auth.auth_required
 def convert_action_page():
-    convert_from: typing.Literal["SESSION", "TDATA"] = request.form.get('selected_convert_from')
-    services = {"SESSION": FromSessionToTdataService, "TDATA": FromTdataToSessionService}
-    converters = {"SESSION": FromSessionToTdataConverter, "TDATA": FromTdataToSessionConverter}
+    convert_from: typing.Literal["SESSION", "TDATA"] = request.form['selected_convert_from']
 
-    service: IConverterService = services[convert_from](request.headers.get('uuid', ''))
-    converter: IConverter = converters[convert_from]()
+    if convert_from == "SESSION":
+        service_cls = FromSessionToTdataService
+        converter_cls = FromSessionToTdataConverter
+    
+    elif convert_from == "TDATA":
+        service_cls = FromTdataToSessionService
+        converter_cls = FromTdataToSessionConverter
+
+    service: IConverterService = service_cls(request.headers.get('uuid', ''))
 
     service.save_file_to_convert(request.files.getlist('files[]'))
-    service.convert_files(converter)
+    service.convert_files(converter_cls())
     session_id = service.get_session_id()
 
     return send_file(f'results/{session_id}.zip',
@@ -46,3 +48,6 @@ def convert_action_page():
         download_name = 'ConvertedAccountsFiles.zip',
         as_attachment = True
     )
+
+if __name__ == '__main__':
+    server.run(port=8080, debug=False)

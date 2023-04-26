@@ -1,11 +1,13 @@
 import datetime
 import requests
+import functools
 import typing
 
 from flask import request, abort
 from dateutil import parser as date_parser
 
 def auth_required(function: typing.Callable) -> typing.Callable:
+    @functools.wraps(function)
     def decorated(*args, **kwargs) -> typing.Callable:
         rompegram_key = request.headers.get('rompegram_key')
         uuid = request.headers.get('uuid')
