@@ -4,3 +4,6 @@ __pycache__
 converter.log
 service.log
 proxy.json
+results
+sessions
+tdatas
