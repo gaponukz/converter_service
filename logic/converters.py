@@ -38,19 +38,19 @@ class FromTdataToSessionConverter(IConverter):
             shutil.rmtree(input_folder)
 
         except Exception as error:
-            logging.exception(error)
+            logging.error(f"{error} ({input_folder})")
 
         try:
             shutil.make_archive(output_folder, 'zip', output_folder)
 
         except Exception as error:
-            logging.exception(error)
+            logging.error(f"{error} ({input_folder})")
 
         try:
             shutil.rmtree(output_folder)
 
         except Exception as error:
-            logging.exception(error)
+            logging.error(f"{error} ({input_folder})")
 
     def _from_tdata_sync_bridge(self, input_folder: str, output_folder: str, file: str):
         asyncio.run(asyncio.wait_for(self._from_tdata_worker(input_folder, output_folder, file), TIMEOUT_LIMIT))
@@ -68,7 +68,7 @@ class FromTdataToSessionConverter(IConverter):
             os.remove(f"{input_folder}/{file}")
 
         except Exception as error:
-            logging.exception(error)
+            logging.error(f"{error} ({input_folder})")
         
         logging.info(f'Converted from tdata {input_folder}/{file}')
 
@@ -93,7 +93,7 @@ class FromSessionToTdataConverter(IConverter):
                     shutil.make_archive(f"{output_folder}/{folder}", 'zip', f"{output_folder}/{folder}")
             
                 except Exception as error:
-                    logging.exception(error)
+                    logging.error(f"{error} ({input_folder})")
                 
             shutil.make_archive(output_folder, 'zip', output_folder)
 
@@ -104,7 +104,7 @@ class FromSessionToTdataConverter(IConverter):
             shutil.rmtree(input_folder)
 
         except Exception as error:
-            logging.exception(error)
+            logging.error(f"{error} ({input_folder})")
 
     def _from_session_sync_bridge(self, input_folder: str, output_folder: str, client: str):
         asyncio.run(asyncio.wait_for(self._from_session_worker(input_folder, output_folder, client), TIMEOUT_LIMIT))

@@ -3,3 +3,4 @@ __pycache__
 .mypy_cache
 converter.log
 service.log
+proxy.json

@@ -5,10 +5,21 @@ import typing
 import telethon
 import pydantic
 
-from werkzeug.datastructures import FileStorage
-
 Roles: typing.TypeAlias = list[str]
 AccountStatus = typing.Literal["No limits", "Not connected", "Spam block", "Dead"]
+TupleProxy: typing.TypeAlias = tuple[str, str, int, bool, str, str]
+
+class UserAgent(typing.TypedDict):
+    api_hash: str
+    api_id: str
+    device_model: str
+    lang_code: str
+    system_lang_code: str
+    system_version: str
+    app_version: str
+    use_ipv6: bool
+    connection_retries: int
+    proxy: TupleProxy
 
 class BaseModel(pydantic.BaseModel):
     class Config:
@@ -25,6 +36,9 @@ class Proxy(BaseModel):
     
     def get_proxy(self) -> str:
         return f"{self.type.lower()}://{self.username}:{self.password}@{self.ip}:{self.port}"
+    
+    def to_tuple(self) -> TupleProxy:
+        return (self.type, self.ip, self.port, True, self.username, self.password)
 
     @classmethod
     def from_string(cls, string: str, type="http") -> Proxy:
@@ -51,6 +65,11 @@ class Proxy(BaseModel):
             
             except Exception as error:
                 raise ValueError(f'Unknown proxy type: {string}') from error
+
+    @classmethod
+    def from_json_file(cls, filename: str) -> Proxy:
+        with open(filename, 'r', encoding='utf-8') as out:
+            return Proxy(**json.load(out))
     
     @classmethod
     def parse_object(cls, _object) -> Proxy | None:
@@ -133,3 +152,6 @@ class ClientWorker(BaseModel):
         proxy = Proxy.parse_object(_proxy)
 
         return cls(proxy=proxy, account_path=account_path, **account)
+
+def TelegramClient(account: str, path="accounts") -> telethon.TelegramClient:
+    return ClientWorker.from_json_file(account, path).telegram_client
