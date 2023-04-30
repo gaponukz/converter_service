@@ -1,0 +1,23 @@
+# Session <-> Tdata converter rest api
+
+## Installation
+
+1. Clone the repository:
+
+```sh
+git clone https://github.com/gaponukz/converter_service.git
+cd converter_service
+```
+
+2. Install pyhton packages
+```sh
+pip install -r requirements.txt
+```
+
+## Deployment
+To run the app on your local machine, simply execute the server.py file:
+```sh
+python server.py
+```
+
+The app should now be accessible at [http://localhost:5000](http://localhost:5000).
