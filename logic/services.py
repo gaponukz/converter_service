@@ -1,8 +1,8 @@
 import os
 import abc
+import utils
 import random
 import logging
-import shutil
 
 from logic.interfaces import IConverter
 from logic.interfaces import IConverterService
@@ -43,25 +43,11 @@ class ConverterServiceTemplate(IConverterService):
     def convert_files(self, converter: IConverter):
         converter.convert(f"{self.folder}/{self._session_id}", f"results/{self._session_id}")
 
-        try:
-            for folder in os.listdir(f"results/{self._session_id}"):
-                try:
-                    shutil.make_archive(f"results/{self._session_id}{folder}", 'zip', f"results/{self._session_id}{folder}")
+        for folder in os.listdir(f"results/{self._session_id}"):
+            utils.make_zip_archive(f"results/{self._session_id}{folder}", f"results/{self._session_id}{folder}")
             
-                except Exception as error:
-                    logging.error(f"{error} ({self._session_id})")
-                
-            shutil.make_archive(f"results/{self._session_id}", 'zip', f"results/{self._session_id}")
-
-        except Exception as error:
-            logging.error(f"{error} ({self._session_id})")
-
-        try:
-            shutil.rmtree(f"{self.folder}/{self._session_id}")
-
-        except Exception as error:
-            logging.error(f"{error} ({self._session_id})")
-
+        utils.make_zip_archive(f"results/{self._session_id}", f"results/{self._session_id}")
+        utils.remove_folder(f"{self.folder}/{self._session_id}")
 
 class FromSessionToTdataService(ConverterServiceTemplate):
     def __init__(self, uuid: str):

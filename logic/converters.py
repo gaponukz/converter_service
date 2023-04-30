@@ -1,10 +1,8 @@
 import os
 import utils
-import shutil
 import asyncio
 import logging
 import threading
-import patoolib
 
 from logic.interfaces import IConverter
 from converter_script import converter_utils
@@ -34,23 +32,9 @@ class FromTdataToSessionConverter(IConverter):
             [thread.start() for thread in threads]
             [thread.join() for thread in threads]
 
-        try:
-            shutil.rmtree(input_folder)
-
-        except Exception as error:
-            logging.error(f"{error} ({input_folder})")
-
-        try:
-            shutil.make_archive(output_folder, 'zip', output_folder)
-
-        except Exception as error:
-            logging.error(f"{error} ({input_folder})")
-
-        try:
-            shutil.rmtree(output_folder)
-
-        except Exception as error:
-            logging.error(f"{error} ({input_folder})")
+        utils.remove_folder(input_folder)
+        utils.make_zip_archive(output_folder, output_folder)
+        utils.remove_folder(output_folder)
 
     def _from_tdata_sync_bridge(self, input_folder: str, output_folder: str, file: str):
         asyncio.run(asyncio.wait_for(self._from_tdata_worker(input_folder, output_folder, file), TIMEOUT_LIMIT))
@@ -58,18 +42,14 @@ class FromTdataToSessionConverter(IConverter):
     async def _from_tdata_worker(self, input_folder: str, output_folder: str, file: str):
         logging.info(f'Try to convert from tdata {input_folder}/{file}')
         
-        patoolib.extract_archive(f"{input_folder}/{file}", 0, f"{input_folder}/{file}".replace('.zip', ''))
+        utils.unzip_archive(f"{input_folder}/{file}", f"{input_folder}/{file}".replace('.zip', ''))
 
         await converter_utils.convert_from_tdata_to_session(
             f"{input_folder}/{file}".replace('.zip', ''), output_folder
         )
 
-        try:
-            os.remove(f"{input_folder}/{file}")
-
-        except Exception as error:
-            logging.error(f"{error} ({input_folder})")
-        
+        utils.remove_file(f"{input_folder}/{file}")
+                
         logging.info(f'Converted from tdata {input_folder}/{file}')
 
 class FromSessionToTdataConverter(IConverter):
@@ -87,24 +67,11 @@ class FromSessionToTdataConverter(IConverter):
             [thread.start() for thread in threads]
             [thread.join() for thread in threads]
 
-        try:
-            for folder in os.listdir(output_folder):
-                try:
-                    shutil.make_archive(f"{output_folder}/{folder}", 'zip', f"{output_folder}/{folder}")
-            
-                except Exception as error:
-                    logging.error(f"{error} ({input_folder})")
-                
-            shutil.make_archive(output_folder, 'zip', output_folder)
-
-        except Exception as error:
-            logging.exception(error)
-
-        try:
-            shutil.rmtree(input_folder)
-
-        except Exception as error:
-            logging.error(f"{error} ({input_folder})")
+        for folder in os.listdir(output_folder):
+            utils.make_zip_archive(f"{output_folder}/{folder}", f"{output_folder}/{folder}")
+        
+        utils.make_zip_archive(output_folder, output_folder)
+        utils.remove_folder(input_folder)
 
     def _from_session_sync_bridge(self, input_folder: str, output_folder: str, client: str):
         asyncio.run(asyncio.wait_for(self._from_session_worker(input_folder, output_folder, client), TIMEOUT_LIMIT))
