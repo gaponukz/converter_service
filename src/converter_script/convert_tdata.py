@@ -1,4 +1,4 @@
-from converter_script import utils
+from src.converter_script import utils
 
 def convert_tdata(path: str) -> list[str]:
     stream = utils.read_file(f"{path}/key_datas")

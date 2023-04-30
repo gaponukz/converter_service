@@ -1,4 +1,3 @@
-import auth
 import typing
 import flask_cors
 
@@ -6,9 +5,10 @@ from flask import Flask
 from flask import request
 from flask import send_file
 
-from dependencies import container
-from logic.interfaces import IConverter
-from logic.interfaces import IConverterService
+from src import auth
+from src.dependencies import container
+from src.logic.interfaces import IConverter
+from src.logic.interfaces import IConverterService
 
 server = Flask(__name__)
 flask_cors.CORS(server)

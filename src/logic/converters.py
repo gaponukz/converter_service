@@ -4,8 +4,8 @@ import asyncio
 import logging
 import threading
 
-from logic.interfaces import IConverter
-from converter_script import converter_utils
+from src.logic.interfaces import IConverter
+from src.converter_script import converter_utils
 
 THREADS_LIMIT = 7
 TIMEOUT_LIMIT = 69

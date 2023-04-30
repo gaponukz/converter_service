@@ -4,8 +4,8 @@ import utils
 import random
 import logging
 
-from logic.interfaces import IConverter
-from logic.interfaces import IConverterService
+from src.logic.interfaces import IConverter
+from src.logic.interfaces import IConverterService
 from werkzeug.datastructures import FileStorage
 
 logging.basicConfig(

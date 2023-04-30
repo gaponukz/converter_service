@@ -1,9 +1,9 @@
 import telethon
 import opentele
 
-from converter_script import convert_tdata
-from converter_script import entities
-from converter_script import utils
+from src.converter_script import convert_tdata
+from src.converter_script import entities
+from src.converter_script import utils
 
 async def get_client_string_session(account: str, path="accounts") -> str:
     client = entities.TelegramClient(account, path)
