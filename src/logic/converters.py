@@ -26,7 +26,7 @@ class FromTdataToSessionConverter(IConverter):
             [thread.join() for thread in threads]
 
         utils.remove_folder(input_folder)
-        utils.make_zip_archive(output_folder, output_folder)
+        utils.make_zip_archive(output_folder)
         utils.remove_folder(output_folder)
 
     def _from_tdata_sync_bridge(self, input_folder: str, output_folder: str, file: str):
@@ -61,9 +61,9 @@ class FromSessionToTdataConverter(IConverter):
             [thread.join() for thread in threads]
 
         for folder in os.listdir(output_folder):
-            utils.make_zip_archive(f"{output_folder}/{folder}", f"{output_folder}/{folder}")
+            utils.make_zip_archive(f"{output_folder}/{folder}", True)
         
-        utils.make_zip_archive(output_folder, output_folder)
+        utils.make_zip_archive(output_folder)
         utils.remove_folder(input_folder)
 
     def _from_session_sync_bridge(self, input_folder: str, output_folder: str, client: str):

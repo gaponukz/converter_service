@@ -30,12 +30,15 @@ def remove_file(file_path: str):
     except Exception as error:
         logging.warning(f"Can not remove {file_path} due to error: {error}")
 
-def make_zip_archive(base_name, root_dir):
+def make_zip_archive(directory_path: str, remove: bool=False):
     try:
-        shutil.make_archive(base_name, 'zip', root_dir)
+        shutil.make_archive(directory_path, 'zip', directory_path)
 
     except Exception as error:
-        logging.warning(f"Can not create zip {base_name} due to error: {error}")
+        logging.warning(f"Can not create zip {directory_path} due to error: {error}")
+    
+    if remove:
+        remove_folder(directory_path)
 
 def unzip_archive(archive, outdir):
     try:

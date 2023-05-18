@@ -44,9 +44,9 @@ class ConverterServiceTemplate(IConverterService):
         converter.convert(f"{self.folder}/{self._session_id}", f"results/{self._session_id}")
 
         for folder in os.listdir(f"results/{self._session_id}"):
-            utils.make_zip_archive(f"results/{self._session_id}{folder}", f"results/{self._session_id}{folder}")
+            utils.make_zip_archive(f"results/{self._session_id}{folder}", True)
             
-        utils.make_zip_archive(f"results/{self._session_id}", f"results/{self._session_id}")
+        utils.make_zip_archive(f"results/{self._session_id}")
         utils.remove_folder(f"{self.folder}/{self._session_id}")
 
 class FromSessionToTdataService(ConverterServiceTemplate):
