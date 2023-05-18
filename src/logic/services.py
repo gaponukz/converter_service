@@ -1,9 +1,9 @@
 import os
 import abc
-import utils
 import random
 import logging
 
+from src import utils
 from src.logic.interfaces import IConverter
 from src.logic.interfaces import IConverterService
 from werkzeug.datastructures import FileStorage

@@ -1,21 +1,14 @@
 import os
-import utils
 import asyncio
 import logging
 import threading
 
+from src import utils
 from src.logic.interfaces import IConverter
 from src.converter_script import converter_utils
 
 THREADS_LIMIT = 7
 TIMEOUT_LIMIT = 69
-
-logging.basicConfig(
-    filename='converter.log',
-    level=logging.INFO,
-    format='%(asctime)s %(levelname)s %(message)s',
-    datefmt='%H:%M:%S'
-)
 
 class FromTdataToSessionConverter(IConverter):
     def convert(self, input_folder: str, output_folder: str):

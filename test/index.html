@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Converter test</title>
+</head>
+<body>
+    <div style="text-align: center; margin-top: 110px;">
+        <div id="drop_file_zone" class="card shadow bg-body" style="width: 50%;margin: auto;background-color: #F6F6F6 !important;">
+            <div class="card-body">
+                <img src="drop_files.png" style="width: 100px;padding-bottom: 10px;" class="img-fluid">
+                <input type="file" id="files" name="files" multiple hidden />
+                <input id="selected_convert_from" name="selected_convert_from" value="SESSION" hidden/>
+    
+                <h4> Click to select the path or drag and drop files to upload </h4>
+                <p style="font-size: 15px;"> Upload the archive with the accounts to start the converter. </p>
+            </div>
+        </div> <br>
+    
+        <div class="card shadow bg-body" style="width: 50%;margin: auto;">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col" id="convert_from">SESSION</div>
+                    <div class="col" id="swapping_block"> <img src="https://img.icons8.com/fluency-systems-filled/48/null/sorting-arrows-horizontal.png" style="width: 25px;" /> </div>
+                    <div class="col" id="convert_to">TDATA</div>
+                </div>
+            </div>
+            <button id="start_form" class="btn btn-dark btn-lg">Start</button>
+        </div>
+    </div>
+</body>
+<script>
+    const rompegramKey = "{{key}}"
+    const userUUID = "{{uuid}}"
+</script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</html>

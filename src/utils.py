@@ -4,13 +4,6 @@ import shutil
 import logging
 import patoolib
 
-logging.basicConfig(
-    filename='utils.log',
-    level=logging.INFO,
-    format='%(asctime)s %(levelname)s %(message)s',
-    datefmt='%H:%M:%S'
-)
-
 def devide_list(array: list, number: int) -> list[list]:
     div_number = math.ceil(len(array) / number)
     result: list[list] = []
