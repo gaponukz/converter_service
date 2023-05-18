@@ -21,3 +21,14 @@ python server.py
 ```
 
 The app should now be accessible at [http://localhost:5000](http://localhost:5000).
+
+## Important!
+Before is starts you need to create file `proxy.json`:
+```json
+{
+    "ip": "ip.com",
+    "port": 8000,
+    "username": "username",
+    "password": "password"
+}
+```
