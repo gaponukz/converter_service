@@ -64,7 +64,10 @@ class FromSessionToTdataService(ConverterServiceTemplate):
 class FromTdataToSessionService(ConverterServiceTemplate):
     def __init__(self, uuid: str):
         super().__init__(uuid)
-        self.folder = "tdatas"
+
+    @property
+    def folder(self):
+        return "tdatas"
     
     def is_alowed_extension(self, extension: str) -> bool:
         return extension.endswith('.zip')

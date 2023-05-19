@@ -15,7 +15,7 @@ flask_cors.CORS(server)
 server.config['CORS_HEADERS'] = 'Content-Type,uuid,rompegram_key'
 
 @server.post('/convert')
-@auth.auth_required
+#auth.auth_required
 def convert_action_page():
     convert_from: typing.Literal["SESSION", "TDATA"] = request.form['selected_convert_from']
     service: IConverterService = container["services"][convert_from](request.headers.get('uuid', ''))

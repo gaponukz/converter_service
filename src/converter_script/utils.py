@@ -232,8 +232,8 @@ def get_random_client() -> entities.UserAgent:
     api_agent = random.choice(telegram_useragents[device])
     
     return entities.UserAgent(
-        api_hash=api_agent['app_id'],
-        api_id=api_agent['app_hash'],
+        api_hash=api_agent['app_hash'],
+        api_id=api_agent['app_id'],
         device_model=random.choice(telegram_useragents[device])['device'],
         lang_code=random.choice(telegram_useragents[device])['lang_pack'],
         system_lang_code=random.choice(telegram_useragents[device])['system_lang_pack'],

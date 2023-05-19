@@ -16,7 +16,7 @@ class FromTdataToSessionConverter(IConverter):
 
         for file in os.listdir(input_folder):
             thread_groups.append(threading.Thread(
-                target=self._from_tdata_sync_bridge, args=(input_folder, file)
+                target=self._from_tdata_sync_bridge, args=(input_folder, output_folder, file)
             ))
 
         os.mkdir(output_folder)
@@ -27,18 +27,19 @@ class FromTdataToSessionConverter(IConverter):
 
         utils.remove_folder(input_folder)
         utils.make_zip_archive(output_folder)
-        utils.remove_folder(output_folder)
+        #utils.remove_folder(output_folder)
 
     def _from_tdata_sync_bridge(self, input_folder: str, output_folder: str, file: str):
         asyncio.run(asyncio.wait_for(self._from_tdata_worker(input_folder, output_folder, file), TIMEOUT_LIMIT))
 
     async def _from_tdata_worker(self, input_folder: str, output_folder: str, file: str):
         logging.info(f'Try to convert from tdata {input_folder}/{file}')
+        folder_name = file.replace('.zip', '')
         
-        utils.unzip_archive(f"{input_folder}/{file}", f"{input_folder}/{file}".replace('.zip', ''))
+        utils.unzip_archive(f"{input_folder}/{file}", f"{input_folder}/{folder_name}")
 
         await converter_utils.convert_from_tdata_to_session(
-            f"{input_folder}/{file}".replace('.zip', ''), output_folder
+            f"{input_folder}/{folder_name}/tdata", f"{output_folder}/{folder_name}"
         )
 
         utils.remove_file(f"{input_folder}/{file}")
