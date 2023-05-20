@@ -54,8 +54,12 @@ def is_nested_archive(archive_path: str) -> bool:
         return any(file.filename.endswith('.zip') for file in archive.filelist)
 
 def _extract_zip(archive_path: str):
-    with zipfile.ZipFile(archive_path, 'r') as zip_ref:
-        zip_ref.extractall(archive_path.removesuffix(".zip"))
+    try:
+        with zipfile.ZipFile(archive_path, 'r') as zip_ref:
+            zip_ref.extractall(archive_path.removesuffix(".zip"))
+
+    except FileNotFoundError:
+        pass
 
 def extract_nested_zip(archive_path: str, save_path: str):
     if not is_nested_archive(archive_path):
