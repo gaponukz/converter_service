@@ -32,7 +32,6 @@ async def convert_from_tdata_to_session(tdata_path: str, save_path: str) -> str 
         async with client:
             info = await client.get_me()
 
-        print(telegram_useragent_kwargs)
         client = telethon.TelegramClient(f"{save_path}/{info.phone}.session", **telegram_useragent_kwargs)
 
         utils.setup_client_from_string_session(client, str_session)
@@ -56,7 +55,7 @@ async def convert_from_tdata_to_session(tdata_path: str, save_path: str) -> str 
 
         telegram_useragent_kwargs.pop('proxy')
         account_data.update(telegram_useragent_kwargs)
-        account_data['account_path'] = save_path
+        account_data['account_path'] = f"{save_path}/{info.phone}"
         account_data['app_id'] = telegram_useragent_kwargs["api_id"]
         account_data['app_hash'] = telegram_useragent_kwargs["api_hash"]
 

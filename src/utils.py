@@ -1,5 +1,6 @@
 import os
 import math
+import zipfile
 import shutil
 import logging
 import patoolib
@@ -47,3 +48,29 @@ def unzip_archive(archive, outdir):
     except Exception as error:
         logging.error(f"Can not extract {archive} due to {error}")
         raise error
+
+def is_nested_archive(archive_path: str) -> bool:
+    with zipfile.ZipFile(archive_path, 'r') as archive:
+        return any(file.filename.endswith('.zip') for file in archive.filelist)
+
+def _extract_zip(archive_path: str):
+    with zipfile.ZipFile(archive_path, 'r') as zip_ref:
+        zip_ref.extractall(archive_path.removesuffix(".zip"))
+
+def extract_nested_zip(archive_path: str, save_path: str):
+    if not is_nested_archive(archive_path):
+        _extract_zip(archive_path)
+        remove_file(archive_path)
+        return
+
+    with zipfile.ZipFile(archive_path, 'r') as archive:
+        for file in archive.filelist:
+            if not file.filename.endswith('.zip'):
+                continue
+
+            with archive.open(file.filename) as zf, open(f"{save_path}/{file.filename}", 'wb') as out:
+                shutil.copyfileobj(zf, out)
+            
+            extract_nested_zip(f"{save_path}/{file.filename}", save_path)
+            _extract_zip(f"{save_path}/{file.filename}")
+            remove_file(f"{save_path}/{file.filename}")

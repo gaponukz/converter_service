@@ -66,8 +66,30 @@ class FromTdataToSessionService(ConverterServiceTemplate):
         super().__init__(uuid)
 
     @property
-    def folder(self):
-        return "tdatas"
+    def folder(self): return "tdatas"
     
     def is_alowed_extension(self, extension: str) -> bool:
         return extension.endswith('.zip')
+
+class FromTdataDifferentFoldersSupportDecorator(FromTdataToSessionService):
+    def __init__(self, service: IConverterService):
+        self.service = service
+        self._session_id = service.get_session_id()
+
+    def get_session_id(self) -> str:
+        return self.service.get_session_id()
+    
+    def save_file_to_convert(self, files: list[FileStorage]) -> str:
+        self.service.save_file_to_convert(files)
+
+        for filename in os.listdir(f"{self.folder}/{self._session_id}"):
+            if not filename.endswith(".zip"):
+                continue
+        
+            utils.extract_nested_zip(
+                f"{self.folder}/{self._session_id}/{filename}",
+                f"{self.folder}/{self._session_id}"
+            )
+
+    def convert_files(self, converter: IConverter):
+        self.service.convert_files(converter)
