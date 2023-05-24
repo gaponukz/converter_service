@@ -1,20 +1,11 @@
 import os
 import abc
 import random
-import logging
 
 from src import utils
 from src.logic.interfaces import IConverter
 from src.logic.interfaces import IConverterService
 from werkzeug.datastructures import FileStorage
-
-logging.basicConfig(
-    filename='service.log',
-    level=logging.INFO,
-    format='%(asctime)s %(levelname)s %(message)s',
-    datefmt='%H:%M:%S'
-)
-
 
 class ConverterServiceTemplate(IConverterService):
     def __init__(self, uuid: str):

@@ -33,6 +33,9 @@ def remove_file(file_path: str):
 
 def make_zip_archive(directory_path: str, remove: bool=False):
     try:
+        if directory_path.endswith('.zip'):
+            return
+        
         shutil.make_archive(directory_path, 'zip', directory_path)
 
     except Exception as error:
