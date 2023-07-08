@@ -18,7 +18,11 @@ def devide_list(array: list, number: int) -> list[list]:
     return result
 
 def remove_folder(folder_path: str):
-    pass
+    try:
+        shutil.rmtree(folder_path)
+
+    except Exception as error:
+        logging.warning(f"Can not remove folder {folder_path} due to error: {error}")
 
 def remove_file(file_path: str):
     try:
