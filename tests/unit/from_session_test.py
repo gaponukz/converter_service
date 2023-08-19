@@ -36,6 +36,19 @@ def test_usecase_without_exceptions():
 
     service.process(session_id)
     
-    print(tdata_db.tdatas)
+    assert tdata_db.tdatas == [
+        Tdata(path=f'sessions/{session_id}/acc1/tdata'),
+        Tdata(path=f'sessions/{session_id}/acc2/tdata')
+    ]
 
-test_usecase_without_exceptions()
+def test_usecase_with_exceptions():
+    session_db = SessionDataBaseMock()
+    tdata_db = TdataDataBaseMock()
+    converter = FromSessionConverterFailedMock()
+
+    session_id = "123"
+    service = ConvertFromSessionToTdata(session_db, tdata_db, converter)
+
+    service.process(session_id)
+
+    assert tdata_db.tdatas == []

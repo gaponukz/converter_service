@@ -42,8 +42,8 @@ def test_usecase_without_exceptions():
     service.process(session_id)
 
     assert session_db.sessions == [
-        Session(json_path='sessios/123/1/acc.json', session_path='sessios/123/1/acc.session'),
-        Session(json_path='sessios/123/2/acc.json', session_path='sessios/123/2/acc.session')
+        Session(json_path=f'sessios/{session_id}/1/acc.json', session_path=f'sessios/{session_id}/1/acc.session'),
+        Session(json_path=f'sessios/{session_id}/2/acc.json', session_path=f'sessios/{session_id}/2/acc.session')
     ]
 
 def test_usecase_with_exceptions():
