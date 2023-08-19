@@ -10,7 +10,7 @@ class TdataDataBase(typing.Protocol):
     def read_all(self, session: SessionId) -> list[Tdata]: ...
 
 class FromTdataConverter(typing.Protocol):
-    def convert(self, session: Tdata) -> Session: ...
+    def convert(self, tdata: Tdata) -> Session: ...
 
 class SessionDataBase(typing.Protocol):
     def save(self, session: Session): ...
@@ -20,18 +20,18 @@ class ConvertFromTdataToSession:
             self,
             session_db: SessionDataBase,
             tdata_db: TdataDataBase,
-            convertor: FromTdataConverter
+            converter: FromTdataConverter
     ):    
         self.session_db = session_db
         self.tdata_db = tdata_db
-        self.convertor = convertor
+        self.converter = converter
 
     def process(self, id: SessionId):
         tdatas = self.tdata_db.read_all(id)
 
         for tdata in tdatas:
             try:
-                session = self.convertor.convert(tdata)
+                session = self.converter.convert(tdata)
             
             except (AccountBannedException, AccountNotFoundException):
                 continue

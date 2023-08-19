@@ -23,7 +23,10 @@ jobs:
 
     - name: Run mypy
       run: mypy src --explicit-package-bases --ignore-missing-imports
-  
+
+    - name: Run unit tests
+      run: pytest
+
   docker:
     name: Publishes to Docker Hub
     runs-on: ubuntu-latest

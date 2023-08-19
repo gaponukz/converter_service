@@ -8,3 +8,4 @@ results
 sessions
 tdatas
 env
+.pytest_cache
