@@ -30,7 +30,7 @@ class PrepareFilesBeforeConvertDecorator:
             )
 
         for filename in os.listdir(f"{self.directory}/{id}"):
-            self.db.save(Tdata(f"{self.directory}/{id}/{filename.replace('.zip', '')}/tdata"))
+            self.db.save(Tdata(f"{self.directory}/{id}/{filename.replace('.zip', '')}"))
 
         self.base.process(id)
 

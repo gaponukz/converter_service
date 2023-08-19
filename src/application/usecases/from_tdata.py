@@ -6,14 +6,14 @@ from src.domain.value_objects import SessionId
 from src.domain.errors import AccountBannedException
 from src.domain.errors import AccountNotFoundException
 
-class SessionDataBase(typing.Protocol):
-    def read_all(self, session: SessionId) -> list[Session]: ...
+class TdataDataBase(typing.Protocol):
+    def read_all(self, session: SessionId) -> list[Tdata]: ...
 
 class FromTdataConverter(typing.Protocol):
-    def convert(self, session: Session) -> Tdata: ...
+    def convert(self, session: Tdata) -> Session: ...
 
-class TdataDataBase(typing.Protocol):
-    def save(self, session: Tdata): ...
+class SessionDataBase(typing.Protocol):
+    def save(self, session: Session): ...
 
 class ConvertFromTdataToSession:
     def __init__(
@@ -27,13 +27,13 @@ class ConvertFromTdataToSession:
         self.convertor = convertor
 
     def process(self, id: SessionId):
-        sessions = self.session_db.read_all(id)
+        tdatas = self.tdata_db.read_all(id)
 
-        for session in sessions:
+        for tdata in tdatas:
             try:
-                tdata = self.convertor.convert(session)
+                session = self.convertor.convert(tdata)
             
             except (AccountBannedException, AccountNotFoundException):
                 continue
 
-            self.tdata_db.save(tdata)
+            self.session_db.save(session)

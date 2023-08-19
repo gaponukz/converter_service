@@ -12,8 +12,9 @@ class TdataStorage:
 
     def save(self, tdata: Tdata):
         parent_dirs = os.path.dirname(os.path.relpath(tdata.path))
-        parent_dirs_list = parent_dirs.split(os.path.sep)
-        new_parent_dirs = os.path.join(self.directory, *parent_dirs_list[-2:])
+        parent_dirs_list = parent_dirs.split(os.path.sep)[1:]
+
+        new_parent_dirs = os.path.join(self.directory, *parent_dirs_list)
 
         os.makedirs(new_parent_dirs, exist_ok=True)
 
