@@ -25,7 +25,7 @@ jobs:
       run: mypy src --explicit-package-bases --ignore-missing-imports
 
     - name: Run unit tests
-      run: pytest
+      run: python -m pytest tests
 
   docker:
     name: Publishes to Docker Hub
