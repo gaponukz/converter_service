@@ -2,7 +2,7 @@ import os
 from src.domain.entities import Session
 from src.domain.value_objects import SessionId
 
-class SessiosStorage:
+class SessioStorage:
     def __init__(self, directory: str):
         self.directory = directory
 
