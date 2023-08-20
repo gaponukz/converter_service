@@ -29,7 +29,7 @@ class SessioStorage:
 
         for filename in os.listdir(f"{self.directory}/{session}"):
             if filename.endswith(".json"):
-                sessions.add(filename)
+                sessions.add(f"{self.directory}/{session}/{filename}")
 
         return [
             Session(
