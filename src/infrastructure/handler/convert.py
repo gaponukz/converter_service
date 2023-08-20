@@ -1,4 +1,5 @@
 import os
+import uuid
 import typing
 
 from flask import Blueprint
@@ -18,7 +19,7 @@ class Controller(Blueprint):
         self.convert_action_page = self.post('/convert')(self._convert_action_page)
     
     def _convert_action_page(self):
-        session = "123"
+        session = str(uuid.uuid4())
         convert_from: typing.Literal["SESSION", "TDATA"] = request.form['selected_convert_from']
 
         os.mkdir(f"input/{session}")
@@ -31,5 +32,5 @@ class Controller(Blueprint):
         
         elif convert_from == "TDATA":
             self.from_tdata.process(session)
-
+        
         return ""

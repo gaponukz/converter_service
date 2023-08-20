@@ -27,8 +27,12 @@ async def convert_from_tdata_to_session(tdata_path: str, save_path: str) -> str:
 
         client = telethon.TelegramClient(_str_session, **telegram_useragent_kwargs)
 
-        await client.connect()
-
+        try:
+            await client.connect()
+        
+        except:
+            raise AccountBannedException(tdata_path)
+        
         if not await client.is_user_authorized():
             raise AccountBannedException(tdata_path)
         
