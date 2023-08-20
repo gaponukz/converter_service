@@ -1,3 +1,4 @@
+import os
 import asyncio
 from src.domain.entities import Tdata
 from src.domain.entities import Session
@@ -8,6 +9,9 @@ class FromSessionConverter:
     def __init__(self, tdatas_path: str, timeout: int=20):
         self.tdatas_path = tdatas_path
         self.timeout = timeout
+    
+        if not os.path.exists(tdatas_path):
+            os.makedirs(tdatas_path)
     
     def convert(self, session: Session) -> Tdata:
         try:

@@ -34,6 +34,7 @@ class ConvertFromTdataToSession:
                 session = self.converter.convert(tdata)
             
             except (AccountBannedException, AccountNotFoundException):
+                print(f"Could not convert {tdata.path}")
                 continue
 
             self.session_db.save(session)

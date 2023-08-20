@@ -1,3 +1,4 @@
+import sqlite3
 import telethon
 import opentele
 
@@ -34,8 +35,12 @@ async def convert_from_tdata_to_session(tdata_path: str, save_path: str) -> str:
         async with client:
             info = await client.get_me()
 
-        client = telethon.TelegramClient(f"{save_path}/{info.phone}.session", **telegram_useragent_kwargs)
+        try:
+            client = telethon.TelegramClient(f"{save_path}/{info.phone}.session", **telegram_useragent_kwargs)
 
+        except sqlite3.OperationalError:
+            raise AccountBannedException(tdata_path)
+    
         utils.setup_client_from_string_session(client, str_session)
 
         async with client:
@@ -59,7 +64,7 @@ async def convert_from_tdata_to_session(tdata_path: str, save_path: str) -> str:
         new_telegram_useragent_kwargs.pop('proxy')
         account_data.update(new_telegram_useragent_kwargs)
         account_data['account_path'] = f"{save_path}/{info.phone}"
-        account_data['app_id'] = new_telegram_useragent_kwargs["api_id"]
+        account_data['app_id'] = str(new_telegram_useragent_kwargs["api_id"])
         account_data['app_hash'] = new_telegram_useragent_kwargs["api_hash"]
 
         account = entities.ClientWorker(**account_data)

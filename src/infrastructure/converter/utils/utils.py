@@ -259,7 +259,7 @@ def setup_client_from_string_session(client: telethon.TelegramClient, session: s
         auto_reconnect=client._auto_reconnect,
         connect_timeout=client._timeout,
         auth_key_callback=client._auth_key_callback,
-        update_callback=client._handle_update,
+        updates_queue=client._updates_queue,
         auto_reconnect_callback=client._handle_auto_reconnect
     )
 
