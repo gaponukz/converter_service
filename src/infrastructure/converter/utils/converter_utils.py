@@ -1,6 +1,7 @@
 import telethon
 import opentele
 
+from src.domain.errors import AccountBannedException
 from src.infrastructure.converter.utils import convert_tdata
 from src.infrastructure.converter.utils import entities
 from src.infrastructure.converter.utils import utils
@@ -15,7 +16,7 @@ async def convert_from_string_to_tdata(string_session: str, path_to_save: str):
 
     tdesk.SaveTData(path_to_save)
 
-async def convert_from_tdata_to_session(tdata_path: str, save_path: str) -> str | None:
+async def convert_from_tdata_to_session(tdata_path: str, save_path: str) -> str:
     string_sessoins: list[str] = convert_tdata.convert_tdata(tdata_path)
 
     for str_session in string_sessoins:
@@ -27,7 +28,7 @@ async def convert_from_tdata_to_session(tdata_path: str, save_path: str) -> str 
         await client.connect()
 
         if not await client.is_user_authorized():
-            return
+            raise AccountBannedException(tdata_path)
         
         async with client:
             info = await client.get_me()
