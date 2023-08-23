@@ -7,3 +7,8 @@ proxy.json
 results
 sessions
 tdatas
+env
+.pytest_cache
+sessions_results
+tdatas_results
+input

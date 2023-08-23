@@ -4,6 +4,7 @@ import json
 import typing
 import telethon
 import pydantic
+from src.domain.entities import Session
 
 Roles: typing.TypeAlias = list[str]
 AccountStatus = typing.Literal["No limits", "Not connected", "Spam block", "Dead"]
@@ -152,6 +153,17 @@ class ClientWorker(BaseModel):
         proxy = Proxy.parse_object(_proxy)
 
         return cls(proxy=proxy, account_path=account_path, **account)
+
+    @classmethod
+    def from_session(cls, session: Session):
+        with open(session.json_path, 'r', encoding='utf-8') as out:
+            account = json.load(out)
+            account.pop('account_path', None)
+        
+        _proxy = account.pop('proxy', None)
+        proxy = Proxy.parse_object(_proxy)
+
+        return cls(proxy=proxy, account_path=session.json_path.replace('.json', ''), **account)
 
 def TelegramClient(account: str, path="accounts") -> telethon.TelegramClient:
     return ClientWorker.from_json_file(account, path).telegram_client
