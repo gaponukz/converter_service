@@ -8,7 +8,7 @@ class TdataDataBaseMock:
     def __init__(self):
         self.tdatas = list[Tdata]()
 
-    def save(self, tdata: Tdata):
+    def save(self, id: SessionId, tdata: Tdata):
         self.tdatas.append(tdata)
 
 class SessionDataBaseMock:
