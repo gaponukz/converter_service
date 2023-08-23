@@ -13,7 +13,7 @@ class FromSessionConverter(typing.Protocol):
     def convert(self, session: Session) -> Tdata: ...
 
 class TdataDataBase(typing.Protocol):
-    def save(self, tdata: Tdata): ...
+    def save(self, session: SessionId, tdata: Tdata): ...
 
 
 class ConvertFromSessionToTdata:
@@ -37,4 +37,4 @@ class ConvertFromSessionToTdata:
             except (AccountBannedException, AccountNotFoundException):
                 continue
 
-            self.tdata_db.save(tdata)
+            self.tdata_db.save(id, tdata)

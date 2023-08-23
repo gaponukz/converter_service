@@ -4,6 +4,7 @@ import typing
 
 from flask import Blueprint
 from flask import request
+from flask import send_file
 
 from src.domain.value_objects import SessionId
 
@@ -33,4 +34,8 @@ class Controller(Blueprint):
         elif convert_from == "TDATA":
             self.from_tdata.process(session)
         
-        return ""
+        return send_file(f'results/{session}.zip',
+            mimetype = 'zip',
+            download_name = 'ConvertedAccountsFiles.zip',
+            as_attachment = True
+        )

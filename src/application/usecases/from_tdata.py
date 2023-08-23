@@ -13,7 +13,7 @@ class FromTdataConverter(typing.Protocol):
     def convert(self, tdata: Tdata) -> Session: ...
 
 class SessionDataBase(typing.Protocol):
-    def save(self, session: Session): ...
+    def save(self, id: SessionId, session: Session): ...
 
 class ConvertFromTdataToSession:
     def __init__(
@@ -28,13 +28,12 @@ class ConvertFromTdataToSession:
 
     def process(self, id: SessionId):
         tdatas = self.tdata_db.read_all(id)
-
+        
         for tdata in tdatas:
             try:
                 session = self.converter.convert(tdata)
             
             except (AccountBannedException, AccountNotFoundException):
-                print(f"Could not convert {tdata.path}")
                 continue
 
-            self.session_db.save(session)
+            self.session_db.save(id, session)

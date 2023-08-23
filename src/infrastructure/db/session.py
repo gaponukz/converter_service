@@ -9,12 +9,12 @@ class SessionStorage:
         if not os.path.exists(directory):
             os.makedirs(directory)
 
-    def save(self, session: Session):
+    def save(self, id: SessionId, session: Session):
         json_filename = os.path.basename(session.json_path)
         session_filename = os.path.basename(session.session_path)
         
         parent_dir = os.path.basename(os.path.dirname(session.json_path))
-        new_parent_dir = os.path.join(self.directory, parent_dir)
+        new_parent_dir = os.path.join(self.directory, id, parent_dir)
 
         os.makedirs(new_parent_dir, exist_ok=True)
 

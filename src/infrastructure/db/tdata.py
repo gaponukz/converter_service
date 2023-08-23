@@ -10,9 +10,9 @@ class TdataStorage:
         if not os.path.exists(directory):
             os.makedirs(directory)
 
-    def save(self, tdata: Tdata):
+    def save(self, id: SessionId, tdata: Tdata):
         parent_dirs = os.path.dirname(os.path.relpath(tdata.path))
-        parent_dirs_list = parent_dirs.split(os.path.sep)[1:]
+        parent_dirs_list = list(set(parent_dirs.split(os.path.sep)[1:] + [id]))
 
         new_parent_dirs = os.path.join(self.directory, *parent_dirs_list)
 

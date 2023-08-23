@@ -11,7 +11,7 @@ class Service(typing.Protocol):
     def process(self, id: SessionId): ...
 
 class TdataDataBase(typing.Protocol):
-    def save(self, session: Tdata): ...
+    def save(self, id: SessionId, session: Tdata): ...
 
 class PrepareFilesBeforeConvertDecorator:
     def __init__(self, base: Service, db: TdataDataBase, directory: str):
@@ -30,7 +30,7 @@ class PrepareFilesBeforeConvertDecorator:
             )
 
         for filename in os.listdir(f"{self.directory}/{id}"):
-            self.db.save(Tdata(f"{self.directory}/{id}/{filename.replace('.zip', '')}"))
+            self.db.save(id, Tdata(f"{self.directory}/{id}/{filename.replace('.zip', '')}"))
 
         self.base.process(id)
 
