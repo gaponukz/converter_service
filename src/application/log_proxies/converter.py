@@ -8,9 +8,13 @@ T = typing.TypeVar('T', covariant=True)
 class BaseConverter(typing.Protocol[F, T]):
     def convert(self, convert_from: F) -> T: ...
 
+class Logger(typing.Protocol):
+    def error(self, message: str): ...
+
 class IgnoreErrorsProxy(typing.Generic[F, T]):
-    def __init__(self, base: BaseConverter[F, T]):
+    def __init__(self, base: BaseConverter[F, T], logger: Logger):
         self._base = base
+        self._logger = logger
 
     def convert(self, convert_from: F) -> T:
         try:
@@ -20,5 +24,5 @@ class IgnoreErrorsProxy(typing.Generic[F, T]):
             raise e
 
         except Exception as error:
-            print(f"Error converting from {convert_from.__class__.__name__}, {error.__class__.__name__}: {error}")
+            self._logger.error(f"Error converting from {convert_from.__class__.__name__}, {error.__class__.__name__}: {error}")
             raise AccountBannedException("")
