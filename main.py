@@ -31,4 +31,4 @@ controller = Controller(from_tdata_usecase, from_session_usecase)
 app.register_blueprint(controller)
 
 if __name__ == '__main__':
-    app.run(port=8080, debug=True)
+    app.run(port=8080)
