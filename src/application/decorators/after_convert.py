@@ -1,8 +1,6 @@
-import os
 import typing
 import shutil
 
-from src.domain.entities import Tdata
 from src.domain.value_objects import SessionId
 
 class Service(typing.Protocol):
