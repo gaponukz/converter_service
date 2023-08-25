@@ -5,19 +5,32 @@ import typing
 from flask import Blueprint
 from flask import request
 from flask import send_file
+from flask import Response
 
 from src.domain.value_objects import SessionId
 
 class ConverterService(typing.Protocol):
     def process(self, id: SessionId): ...
 
+
+class ProxyChecker(typing.Protocol):
+    def is_alive(self) -> bool: ...
+
+
 class Controller(Blueprint):
-    def __init__(self, from_tdata: ConverterService, from_session: ConverterService):
+    def __init__(
+            self,
+            from_tdata: ConverterService,
+            from_session: ConverterService,
+            checker: ProxyChecker
+        ):
         self.from_tdata = from_tdata
         self.from_session = from_session
+        self.checker = checker
 
         super().__init__('controller', __name__)
         self.convert_action_page = self.post('/convert')(self._convert_action_page)
+        self.is_proxy_alive_page = self.get('/is_alive')(self._is_proxy_alive_page)
     
     def _convert_action_page(self):
         session = str(uuid.uuid4())
@@ -39,3 +52,10 @@ class Controller(Blueprint):
             download_name = 'ConvertedAccountsFiles.zip',
             as_attachment = True
         )
+
+    def _is_proxy_alive_page(self):
+        if self.checker.is_alive():
+            return Response("alive", status=200)
+
+        else:
+            return Response("not alive", status=500)
