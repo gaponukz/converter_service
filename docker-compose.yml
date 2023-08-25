@@ -1,0 +1,15 @@
+version: "3"
+services:
+  converter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./tdatas_results:/app/tdatas_results
+      - ./sessions_results:/app/sessions_results
+      - ./tdatas:/app/tdatas
+      - ./sessions:/app/sessions
+      - ./results:/app/results
+      - ./input:/app/input

@@ -1,8 +1,6 @@
-import os
 import typing
 import shutil
 
-from src.domain.entities import Tdata
 from src.domain.value_objects import SessionId
 
 class Service(typing.Protocol):
@@ -17,5 +15,5 @@ class MakeZipAfterConvertDecorator:
         self.service.process(id)
 
         shutil.make_archive(f"{self.directory}/{id}", 'zip', f"{self.directory}/{id}")
-        os.rename(f"{self.directory}/{id}.zip", f"results/{id}.zip")
+        shutil.copy(f"{self.directory}/{id}.zip", f"results/{id}.zip")
         shutil.rmtree(f"{self.directory}/{id}")
