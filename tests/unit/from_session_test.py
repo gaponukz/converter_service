@@ -13,10 +13,7 @@ class TdataDataBaseMock:
 
 class SessionDataBaseMock:
     def read_all(self, session: SessionId) -> list[Session]:
-        return [
-            Session(f"sessions/{session}/acc1.json", f"sessions/{session}/acc1.session"),
-            Session(f"sessions/{session}/acc2.json", f"sessions/{session}/acc2.session")
-        ]
+        return [Session(f"sessions/{session}/acc{i}.json", f"sessions/{session}/acc{i}.session") for i in range(10)]
 
 class FromSessionConverterMock:
     def convert(self, session: Session) -> Tdata:
@@ -36,10 +33,7 @@ def test_usecase_without_exceptions():
 
     service.process(session_id)
     
-    assert tdata_db.tdatas == [
-        Tdata(path=f'sessions/{session_id}/acc1/tdata'),
-        Tdata(path=f'sessions/{session_id}/acc2/tdata')
-    ]
+    assert tdata_db.tdatas == [Tdata(path=f'sessions/{session_id}/acc{i}/tdata') for i in range(10)]
 
 def test_usecase_with_exceptions():
     session_db = SessionDataBaseMock()
