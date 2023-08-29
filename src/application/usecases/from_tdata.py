@@ -34,9 +34,12 @@ class ConvertFromTdataToSession:
         threads = [threading.Thread(target=self._convert_account, args=(id, tdata)) for tdata in tdatas]
 
         for group in self._devide_list(threads):
-            [thread.start() for thread in group]
-            [thread.join() for thread in group]
-    
+            for thread in group:
+                thread.start()
+
+            for thread in group:
+                thread.join()
+                
     def _convert_account(self, id: SessionId, tdata: Tdata):
             try:
                 session = self.converter.convert(tdata)
