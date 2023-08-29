@@ -1,4 +1,5 @@
 import os
+import shutil
 from src.domain.entities import Session
 from src.domain.value_objects import SessionId
 
@@ -21,8 +22,8 @@ class SessionStorage:
         new_json_path = os.path.normpath(os.path.join(new_parent_dir, json_filename))
         new_session_path = os.path.normpath(os.path.join(new_parent_dir, session_filename))
 
-        os.rename(session.json_path, new_json_path)
-        os.rename(session.session_path, new_session_path)
+        shutil.move(session.json_path, new_json_path)
+        shutil.move(session.session_path, new_session_path)
 
     def read_all(self, session: SessionId) -> list[Session]:
         sessions = set[str]()

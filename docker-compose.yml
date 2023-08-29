@@ -1,9 +1,7 @@
 version: "3"
 services:
   converter:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: gaponukz/converter:latest
     ports:
       - "8080:8080"
     volumes:
@@ -13,3 +11,4 @@ services:
       - ./sessions:/app/sessions
       - ./results:/app/results
       - ./input:/app/input
+      - ./proxy.json:/app/proxy.json
