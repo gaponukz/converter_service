@@ -3,7 +3,7 @@ import asyncio
 from src.domain.entities import Tdata
 from src.domain.entities import Session
 from src.domain.errors import AccountBannedException
-from infrastructure.converter.utils import converter_utils
+from src.infrastructure.converter.utils import converter_utils
 
 
 class FromTdataConverter:

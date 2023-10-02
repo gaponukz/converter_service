@@ -11,7 +11,7 @@ import datetime
 import ipaddress
 import telethon
 
-from infrastructure.converter.utils import entities
+from src.infrastructure.converter.utils import entities
 
 DC_TABLE = {
     1: ("149.154.175.50", 443),

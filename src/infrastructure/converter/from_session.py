@@ -3,8 +3,8 @@ import asyncio
 from src.domain.entities import Tdata
 from src.domain.entities import Session
 from src.domain.errors import AccountBannedException
-from infrastructure.converter.tutils import TData
-from infrastructure.converter.tutils import Proxy
+from src.infrastructure.converter.tutils import TData
+from src.infrastructure.converter.tutils import Proxy
 
 
 class FromSessionConverter:

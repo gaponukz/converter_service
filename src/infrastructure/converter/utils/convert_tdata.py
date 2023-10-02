@@ -1,4 +1,4 @@
-from infrastructure.converter.utils import utils
+from src.infrastructure.converter.utils import utils
 
 
 def convert_tdata(path: str) -> list[str]:

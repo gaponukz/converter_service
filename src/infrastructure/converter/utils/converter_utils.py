@@ -4,9 +4,9 @@ import opentele
 
 from src.domain.entities import Session
 from src.domain.errors import AccountBannedException
-from infrastructure.converter.utils import convert_tdata
-from infrastructure.converter.utils import entities
-from infrastructure.converter.utils import utils
+from src.infrastructure.converter.utils import convert_tdata
+from src.infrastructure.converter.utils import entities
+from src.infrastructure.converter.utils import utils
 
 
 async def session_to_string(session: Session) -> str:
