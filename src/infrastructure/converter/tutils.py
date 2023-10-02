@@ -85,7 +85,7 @@ class Proxy(BaseModel):
     username: str
     password: str
     type: str = "http"
-    status = "live"
+    status: str = "live"
 
     def get_proxy(self) -> str:
         return f"{self.type.lower()}://{self.username}:{self.password}@{self.ip}:{self.port}"
