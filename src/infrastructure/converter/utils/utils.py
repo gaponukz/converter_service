@@ -11,7 +11,7 @@ import datetime
 import ipaddress
 import telethon
 
-from src.infrastructure.converter.utils import entities
+from infrastructure.converter.utils import entities
 
 DC_TABLE = {
     1: ("149.154.175.50", 443),
@@ -20,6 +20,7 @@ DC_TABLE = {
     4: ("149.154.167.91", 443),
     5: ("149.154.171.5", 443),
 }
+
 
 class QDataStream:
     def __init__(self, data):
@@ -36,7 +37,7 @@ class QDataStream:
 
         if n is not None and len(data) != n:
             raise Exception("unexpected eof")
-        
+
         return data
 
     def read_buffer(self):
@@ -89,6 +90,7 @@ def create_local_key(passcode, salt):
 
     return hashlib.pbkdf2_hmac("sha512", _hash, salt, iterations, 256)
 
+
 def prepare_aes_oldmtp(auth_key, msg_key, send):
     if send:
         x = 0
@@ -137,11 +139,12 @@ def decrypt_local(data, key):
 
     if encrypted_key != sha1.digest()[:16]:
         raise Exception("failed to decrypt")
-    
+
     length = int.from_bytes(data[:4], "little")
     data = data[4:length]
 
     return QDataStream(data)
+
 
 def read_file(name):
     with open(name, "rb") as f:
@@ -169,11 +172,13 @@ def read_file(name):
 
     return QDataStream(data)
 
+
 def read_encrypted_file(name, key):
     stream = read_file(name)
     encrypted_data = stream.read_buffer()
 
     return decrypt_local(encrypted_data, key)
+
 
 def account_data_string(index=0):
     s = "data"
@@ -183,10 +188,11 @@ def account_data_string(index=0):
 
     md5 = hashlib.md5()
     md5.update(bytes(s, "utf-8"))
-    
+
     digest = md5.digest()
 
     return digest[:8][::-1].hex().upper()[::-1]
+
 
 def read_user_auth(directory, local_key, index=0):
     name = account_data_string(index)
@@ -214,8 +220,9 @@ def read_user_auth(directory, local_key, index=0):
         auth_key = stream.read(256)
         if auth_dc == main_dc:
             return auth_dc, auth_key
-    
+
     raise Exception("invalid user auth config")
+
 
 def build_session(dc, ip, port, key):
     ip_bytes = ipaddress.ip_address(ip).packed
@@ -224,33 +231,37 @@ def build_session(dc, ip, port, key):
 
     return "1" + encoded_data
 
+
 def get_random_client() -> entities.UserAgent:
     with open("telegram_useragents.json", "r", encoding="utf-8") as out:
         telegram_useragents = json.load(out)
-    
+
     device = random.choice(list(telegram_useragents.keys()))
     api_agent = random.choice(telegram_useragents[device])
-    
+
     return entities.UserAgent(
-        api_hash=api_agent['app_hash'],
-        api_id=api_agent['app_id'],
-        device_model=random.choice(telegram_useragents[device])['device'],
-        lang_code=random.choice(telegram_useragents[device])['lang_pack'],
-        system_lang_code=random.choice(telegram_useragents[device])['system_lang_pack'],
-        system_version=random.choice(telegram_useragents[device])['sdk'],
-        app_version=random.choice(telegram_useragents[device])['app_version'],
-        proxy = entities.Proxy.from_json_file("proxy.json").to_tuple(),
-        use_ipv6 = False,
-        connection_retries = 2
+        api_hash=api_agent["app_hash"],
+        api_id=api_agent["app_id"],
+        device_model=random.choice(telegram_useragents[device])["device"],
+        lang_code=random.choice(telegram_useragents[device])["lang_pack"],
+        system_lang_code=random.choice(telegram_useragents[device])["system_lang_pack"],
+        system_version=random.choice(telegram_useragents[device])["sdk"],
+        app_version=random.choice(telegram_useragents[device])["app_version"],
+        proxy=entities.Proxy.from_json_file("proxy.json").to_tuple(),
+        use_ipv6=False,
+        connection_retries=2,
     )
 
+
 def setup_client_from_string_session(client: telethon.TelegramClient, session: str):
-    dc, ip_bytes, port, key = struct.unpack(">B4sH256s", base64.urlsafe_b64decode(session[1:].encode("ascii")))
+    dc, ip_bytes, port, key = struct.unpack(
+        ">B4sH256s", base64.urlsafe_b64decode(session[1:].encode("ascii"))
+    )
 
     client.session.set_dc(dc, str(ipaddress.ip_address(ip_bytes)), port)
-    client.session.auth_key = telethon.crypto.authkey.AuthKey(key) # ?
+    client.session.auth_key = telethon.crypto.authkey.AuthKey(key)  # ?
     client.session.save()
-    
+
     client._sender = telethon.network.mtprotosender.MTProtoSender(
         telethon.crypto.authkey.AuthKey(key),
         loggers=client._log,
@@ -259,15 +270,20 @@ def setup_client_from_string_session(client: telethon.TelegramClient, session: s
         auto_reconnect=client._auto_reconnect,
         connect_timeout=client._timeout,
         auth_key_callback=client._auth_key_callback,
-        auto_reconnect_callback=client._handle_auto_reconnect
+        auto_reconnect_callback=client._handle_auto_reconnect,
     )
+
 
 async def get_client_creation_timestamp(client: telethon.TelegramClient) -> float:
     await client.send_message("@creationdatebot", "/start")
     await asyncio.sleep(0.5)
 
-    messages: list[telethon.types.Message] = await client.get_messages("@creationdatebot")
+    messages: list[telethon.types.Message] = await client.get_messages(
+        "@creationdatebot"
+    )
     last_message_text = messages[0].message
-    registered = datetime.datetime.strptime(last_message_text.split(" registered: ")[-1].split()[0], '%Y-%m-%d')
+    registered = datetime.datetime.strptime(
+        last_message_text.split(" registered: ")[-1].split()[0], "%Y-%m-%d"
+    )
 
     return datetime.datetime.timestamp(registered)
