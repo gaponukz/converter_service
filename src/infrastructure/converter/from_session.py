@@ -26,10 +26,14 @@ class FromSessionConverter:
     async def _helper(self, session: Session) -> Tdata:
         phone = session.json_path.replace(".json", "").split("/")[-1]
         path_to_save = f"{self.tdatas_path}/{phone}/tdata"
+
+        if not os.path.exists(f"{self.tdatas_path}/{phone}"):
+            os.mkdir(f"{self.tdatas_path}/{phone}")
+
         tdata = TData(path_to_save)
 
         await tdata.session_to_tdata(
-            proxy=Proxy.from_json_file("proxy.json").get_proxy(), session=session
+            proxy=Proxy.from_json_file("proxy.json").to_tuple(), session=session
         )
 
         return Tdata(path_to_save)

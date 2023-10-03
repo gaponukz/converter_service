@@ -42,7 +42,7 @@ class TData:
     def __init__(self, path_to_save: str):
         self.path_to_save = path_to_save
 
-    async def session_to_tdata(self, proxy, session: Session) -> None:
+    async def session_to_tdata(self, proxy: TupleProxy, session: Session) -> None:
         rand_attrs = get_random_attr()
         session_path = session.session_path
         api_data = APIData(
