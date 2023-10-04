@@ -3,7 +3,7 @@ import asyncio
 from src.domain.entities import Tdata
 from src.domain.entities import Session
 from src.domain.errors import AccountBannedException
-from src.infrastructure.converter.utils import converter_utils
+from src.infrastructure.converter.tutils import convert_from_tdata_to_session
 
 
 class FromTdataConverter:
@@ -16,9 +16,7 @@ class FromTdataConverter:
 
     def convert(self, tdata: Tdata) -> Session:
         try:
-            coroutine = converter_utils.convert_from_tdata_to_session(
-                tdata.path, self.sessions_path
-            )
+            coroutine = convert_from_tdata_to_session(tdata.path, self.sessions_path)
             phone = asyncio.run(asyncio.wait_for(coroutine, self.timeout))
 
         except asyncio.TimeoutError:
