@@ -63,7 +63,7 @@ def get_json(session_phone: str, attrs: dict, session_dir):
         "system_lang_pack": attrs["system_lang_pack"],
         "ipv6": False,
     }
-    return json.dump(jsonic, open(session_dir + session_phone + ".json", "w+"))
+    return json.dump(jsonic, open(f"{session_dir}/{session_phone}.json", "w+"))
 
 
 async def convert_from_tdata_to_session(tdata_path: str, session_path: str) -> str:
