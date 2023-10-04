@@ -1,14 +1,18 @@
 from __future__ import annotations
 
+import os
 import typing
-from asyncio import Semaphore, Queue
+import asyncio
 import sqlite3
+import datetime
 import shutil
 import json
 import pydantic
 from opentele.api import UseCurrentSession, APIData
 from opentele.tl import TelegramClient as TC
+from opentele.td import TDesktop as TD
 from src.domain.entities import Session
+from src.domain.errors import AccountBannedException
 import random
 
 
@@ -36,6 +40,77 @@ def get_random_attr() -> dict:
                 record,
             )
         )
+
+
+def get_json(session_phone: str, attrs: dict, session_dir):
+    register_time = int(datetime.datetime.now().timestamp())
+
+    jsonic = {
+        "session_file": session_phone,
+        "phone": session_phone,
+        "register_time": register_time,
+        "app_id": attrs["app_id"],
+        "app_hash": attrs["app_hash"],
+        "sdk": attrs["sdk"],
+        "app_version": attrs["app_version"],
+        "device": attrs["device"],
+        "last_check_time": register_time,
+        "first_name": "",
+        "last_name": "",
+        "username": "",
+        "sex": 0,
+        "lang_pack": attrs["lang_pack"],
+        "system_lang_pack": attrs["system_lang_pack"],
+        "ipv6": False,
+    }
+    return json.dump(jsonic, open(session_dir + session_phone + ".json", "w+"))
+
+
+async def convert_from_tdata_to_session(tdata_path: str, session_path: str) -> str:
+    rand_attrs = get_random_attr()
+    api_data = APIData(
+        api_id=rand_attrs["app_id"],
+        api_hash=rand_attrs["app_hash"],
+        device_model=rand_attrs["device"],
+        system_version=rand_attrs["sdk"],
+        app_version=rand_attrs["app_version"],
+        system_lang_code=rand_attrs["system_lang_pack"],
+        lang_pack=rand_attrs["lang_pack"],
+    )
+    session_id = random.randrange(100, 999)
+    tdesk = TD(tdata_path, api=api_data)
+    if not tdesk.isLoaded():
+        raise AccountBannedException(tdata_path)
+
+    session = await asyncio.wait_for(
+        tdesk.ToTelethon(
+            session=f"{session_path}/{session_id}.session",
+            flag=UseCurrentSession,
+            proxy=Proxy.from_json_file("proxy.json").to_tuple(),
+        ),
+        5,
+    )
+
+    try:
+        await asyncio.sleep(3)
+        await asyncio.wait_for(session.connect(), 5)
+    except:
+        await asyncio.wait_for(session.disconnect(), 1)
+        raise AccountBannedException(tdata_path)
+
+    data = await asyncio.wait_for(session.get_me(), 1)
+
+    if data is None:
+        await asyncio.wait_for(session.disconnect(), 1)
+        raise AccountBannedException(tdata_path)
+
+    phone = data.phone
+    get_json(phone, rand_attrs, session_path)
+    await asyncio.wait_for(session.disconnect(), 1)
+
+    os.rename(f"{session_path}/{session_id}.session", f"{session_path}/{phone}.session")
+
+    return data.phone
 
 
 class TData:
