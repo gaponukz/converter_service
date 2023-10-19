@@ -29,4 +29,4 @@ class ConvertAttemptDecorator(typing.Generic[F, T]):
                 last_error = error
 
         if last_error is not None:
-            raise error
+            raise last_error
