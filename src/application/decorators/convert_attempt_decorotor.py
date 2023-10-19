@@ -30,3 +30,6 @@ class ConvertAttemptDecorator(typing.Generic[F, T]):
 
         if last_error is not None:
             raise last_error
+
+        else:
+            raise ValueError("ConvertAttemptDecorator can not have zero attempts")
