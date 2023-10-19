@@ -13,7 +13,7 @@ class BaseConverter(typing.Protocol[F, T]):
 class ConvertAttemptDecorator(typing.Generic[F, T]):
     def __init__(self, base: BaseConverter[F, T], attempt: int):
         self._base = base
-        self._attempt = attempt
+        self._attempt = 1 if attempt <= 0 else attempt
 
     def convert(self, convert_from: F) -> T:
         last_error: Exception | None = None
