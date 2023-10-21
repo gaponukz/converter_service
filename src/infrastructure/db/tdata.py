@@ -3,6 +3,7 @@ import shutil
 from src.domain.entities import Tdata
 from src.domain.value_objects import SessionId
 
+
 class TdataStorage:
     def __init__(self, directory: str):
         self.directory = directory
@@ -23,9 +24,11 @@ class TdataStorage:
 
     def read_all(self, session: SessionId) -> list[Tdata]:
         tdatas = []
-    
+
         for filename in os.listdir(f"{self.directory}/{session}"):
             if os.path.exists(f"{self.directory}/{session}/{filename}/tdata"):
-                tdatas.append(Tdata(path=f"{self.directory}/{session}/{filename}/tdata"))
-        
+                tdatas.append(
+                    Tdata(path=f"{self.directory}/{session}/{filename}/tdata")
+                )
+
         return tdatas

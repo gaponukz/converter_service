@@ -6,6 +6,7 @@ from urllib3.util.retry import Retry
 
 from src.domain.entities import Proxy
 
+
 class ProxyChecker:
     def __init__(self, proxy: Proxy):
         self._proxy = f"{proxy.type.lower()}://{proxy.username}:{proxy.password}@{proxy.ip}:{proxy.port}"
@@ -13,11 +14,11 @@ class ProxyChecker:
     def is_alive(self) -> bool:
         try:
             session = requests.Session()
-            retry = Retry(connect = 3, backoff_factor = 0.5)
-            adapter = HTTPAdapter(max_retries = retry)
-            session.mount('http://', adapter)
+            retry = Retry(connect=3, backoff_factor=0.5)
+            adapter = HTTPAdapter(max_retries=retry)
+            session.mount("http://", adapter)
             session.max_redirects = 300
-            session.trust_env=False
+            session.trust_env = False
 
             sites = [
                 "https://www.youtube.com/",
@@ -32,7 +33,7 @@ class ProxyChecker:
                 "https://openai.com/",
                 "https://www.office.com/",
                 "https://discord.com/",
-                "https://www.pinterest.com/"
+                "https://www.pinterest.com/",
             ]
 
             random.shuffle(sites)
@@ -42,11 +43,11 @@ class ProxyChecker:
                     response = session.get(
                         site,
                         proxies={"https": self._proxy},
-                        timeout=(3.05,27),
+                        timeout=(3.05, 27),
                         allow_redirects=True,
-                        headers=fake_headers.Headers(os="win", headers=True).generate()
+                        headers=fake_headers.Headers(os="win", headers=True).generate(),
                     )
-                
+
                 except Exception as loop_error:
                     print(loop_error)
                     continue
@@ -54,7 +55,7 @@ class ProxyChecker:
                 return "40" not in str(response.status_code)
 
             return False
-        
+
         except Exception as error:
             print(error)
             return False
