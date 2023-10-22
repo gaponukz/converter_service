@@ -4,8 +4,6 @@ import threading
 from src.domain.entities import Tdata
 from src.domain.entities import Session
 from src.domain.value_objects import SessionId
-from src.domain.errors import AccountBannedException
-from src.domain.errors import AccountNotFoundException
 
 
 class SessionDataBase(typing.Protocol):

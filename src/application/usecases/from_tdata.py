@@ -4,8 +4,6 @@ import threading
 from src.domain.entities import Tdata
 from src.domain.entities import Session
 from src.domain.value_objects import SessionId
-from src.domain.errors import AccountBannedException
-from src.domain.errors import AccountNotFoundException
 
 
 class TdataDataBase(typing.Protocol):
@@ -20,6 +18,9 @@ class FromTdataConverter(typing.Protocol):
 
 class SessionDataBase(typing.Protocol):
     def save(self, id: SessionId, session: Session):
+        ...
+
+    def save_as_failed(self, id: SessionId, tdata: Tdata):
         ...
 
 
@@ -54,10 +55,12 @@ class ConvertFromTdataToSession:
         try:
             session = self.converter.convert(tdata)
 
-        except (AccountBannedException, AccountNotFoundException):
-            return
+        except Exception as error:
+            self.session_db.save_as_failed(id, tdata)
+            raise error
 
-        self.session_db.save(id, session)
+        else:
+            self.session_db.save(id, session)
 
     def _devide_list(
         self, array: list[threading.Thread]

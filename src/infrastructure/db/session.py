@@ -1,12 +1,13 @@
 import os
 import shutil
-from src.domain.entities import Session
+from src.domain.entities import Session, Tdata
 from src.domain.value_objects import SessionId
 
 
 class SessionStorage:
     def __init__(self, directory: str):
         self.directory = directory
+        self._failed_dir = "failed"
 
         if not os.path.exists(directory):
             os.makedirs(directory)
@@ -27,6 +28,15 @@ class SessionStorage:
 
         shutil.move(session.json_path, new_json_path)
         shutil.move(session.session_path, new_session_path)
+
+    def save_as_failed(self, id: SessionId, tdata: Tdata):
+        acc = os.path.split(tdata.path)[-2]
+        path_to_failed = os.path.join(self.directory, id, self._failed_dir)
+
+        if not os.path.exists(path_to_failed):
+            os.makedirs(path_to_failed, exist_ok=True)
+
+        shutil.move(tdata.path, os.path.join(path_to_failed, f"{acc}/tdata"))
 
     def read_all(self, session: SessionId) -> list[Session]:
         sessions = set[str]()

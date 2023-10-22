@@ -8,9 +8,13 @@ from src.application.usecases.from_session import ConvertFromSessionToTdata
 class TdataDataBaseMock:
     def __init__(self):
         self.tdatas = list[Tdata]()
+        self.failed = list[Session]()
 
     def save(self, id: SessionId, tdata: Tdata):
         self.tdatas.append(tdata)
+
+    def save_as_failed(self, id: SessionId, session: Session):
+        self.failed.append(session)
 
 
 class SessionDataBaseMock:
@@ -49,6 +53,8 @@ def test_usecase_without_exceptions():
         Tdata(path=f"sessions/{session_id}/acc{i}/tdata") for i in range(10)
     ]
 
+    assert tdata_db.failed == []
+
 
 def test_usecase_with_exceptions():
     session_db = SessionDataBaseMock()
@@ -61,3 +67,10 @@ def test_usecase_with_exceptions():
     service.process(session_id)
 
     assert tdata_db.tdatas == []
+    assert tdata_db.failed == [
+        Session(
+            json_path=f"sessions/123/acc{i}.json",
+            session_path=f"sessions/123/acc{i}.session",
+        )
+        for i in range(10)
+    ]
