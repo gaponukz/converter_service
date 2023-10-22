@@ -32,4 +32,4 @@ class IgnoreErrorsProxy(typing.Generic[F, T]):
             self._logger.error(
                 f"Error converting from {convert_from.__class__.__name__}, {error.__class__.__name__}: {error}"
             )
-            raise AccountBannedException("")
+            raise AccountBannedException(convert_from)

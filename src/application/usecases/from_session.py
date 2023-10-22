@@ -22,6 +22,9 @@ class TdataDataBase(typing.Protocol):
     def save(self, session: SessionId, tdata: Tdata):
         ...
 
+    def save_as_failed(self, id: SessionId, session: Session):
+        ...
+
 
 class ConvertFromSessionToTdata:
     def __init__(
@@ -54,10 +57,12 @@ class ConvertFromSessionToTdata:
         try:
             tdata = self.convertor.convert(session)
 
-        except (AccountBannedException, AccountNotFoundException):
-            return
+        except Exception as error:
+            self.tdata_db.save_as_failed(id, session)
+            raise error
 
-        self.tdata_db.save(id, tdata)
+        else:
+            self.tdata_db.save(id, tdata)
 
     def _devide_list(
         self, array: list[threading.Thread]
