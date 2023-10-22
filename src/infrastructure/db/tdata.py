@@ -1,5 +1,6 @@
 import os
 import shutil
+from ordered_set import OrderedSet
 from src.domain.entities import Tdata, Session
 from src.domain.value_objects import SessionId
 
@@ -14,10 +15,10 @@ class TdataStorage:
 
     def save(self, id: SessionId, tdata: Tdata):
         parent_dirs = os.path.dirname(os.path.relpath(tdata.path))
-        parent_dirs_list = [id] + parent_dirs.split(os.path.sep)[1:]
+        parent_dirs_list = list(OrderedSet([id] + parent_dirs.split(os.path.sep)[1:]))
         new_parent_dirs = os.path.join(self.directory, *parent_dirs_list)
 
-        os.makedirs(new_parent_dirs)
+        os.makedirs(new_parent_dirs, exist_ok=True)
 
         new_tdata_path = os.path.join(new_parent_dirs, os.path.basename(tdata.path))
 
