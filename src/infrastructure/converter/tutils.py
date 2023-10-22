@@ -10,6 +10,7 @@ import json
 import pydantic
 from opentele.api import UseCurrentSession, APIData
 from opentele.tl import TelegramClient as TC
+from opentele.exception import OpenTeleException
 from opentele.td import TDesktop as TD
 from src.domain.entities import Session
 from src.domain.errors import AccountBannedException
@@ -78,7 +79,13 @@ async def convert_from_tdata_to_session(tdata_path: str, session_path: str) -> s
         lang_pack=rand_attrs["lang_pack"],
     )
     session_id = random.randrange(100, 999)
-    tdesk = TD(tdata_path, api=api_data)
+
+    try:
+        tdesk = TD(tdata_path, api=api_data)
+
+    except OpenTeleException:
+        raise AccountBannedException(tdata_path)
+
     if not tdesk.isLoaded():
         raise AccountBannedException(tdata_path)
 
